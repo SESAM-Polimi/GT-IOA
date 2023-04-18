@@ -45,11 +45,17 @@ world.shock_calc(f"{pd.read_excel(paths, index_col=[0]).loc['Shocks',user]}\Shoc
 world.shock_calc(f"{pd.read_excel(paths, index_col=[0]).loc['Shocks',user]}\Shock 3.1 - Avoided carbon intensive electricicty production.xlsx",z=True,v=True,Y=True,e=True,scenario="shock 3.1")
 world.shock_calc(f"{pd.read_excel(paths, index_col=[0]).loc['Shocks',user]}\Shock 3.2 - Avoided carbon intensive electricicty production.xlsx",z=True,v=True,Y=True,e=True,scenario="shock 3.2")
 
+#%% Exporting shocked tables
+for s in world.scenarios:
+    world.to_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Shocks',user]}\Tables\{s}.xlsx", scenario=s)
+
 #%% Aggregate for postprocess and visuals
 path_aggr = r"Aggregations\Aggregation_postprocess.xlsx"
 world.aggregate(io=path_aggr,levels=['Activity','Commodity','Factor of production','Satellite account','Consumption category'])
 
-#%% Exporting results
+#%% Exporting matrices
 world.matrices_export(
     export_folder = f"{pd.read_excel(paths, index_col=[0]).loc['Results',user]}",
     )
+
+

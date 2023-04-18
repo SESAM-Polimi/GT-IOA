@@ -1,363 +1,311 @@
 region_from,activity_name,scenario,value
 China,Other services,baseline,5564094908925.307
-China,Other services,shock 0,5564094908925.305
 China,Other services,shock 1.1,5564094908926.283
 China,Other services,shock 1.2,5564094908926.283
 China,Other services,shock 2,5564094908925.305
 China,Other services,shock 3.1,5564094908925.305
 China,Other services,shock 3.2,5564094908924.789
 China,Transport,baseline,283504210282.1313
-China,Transport,shock 0,283504210282.1312
 China,Transport,shock 1.1,283504210282.547
 China,Transport,shock 1.2,283504210282.54694
 China,Transport,shock 2,283504210282.1312
 China,Transport,shock 3.1,283504210282.1312
 China,Transport,shock 3.2,283504210282.0476
 China,Manufacture of non-ferrous metals and non-metallic minerals,baseline,1175000694800.0684
-China,Manufacture of non-ferrous metals and non-metallic minerals,shock 0,1175000694800.0674
 China,Manufacture of non-ferrous metals and non-metallic minerals,shock 1.1,1175000694800.6436
 China,Manufacture of non-ferrous metals and non-metallic minerals,shock 1.2,1175000694800.6436
 China,Manufacture of non-ferrous metals and non-metallic minerals,shock 2,1175000694800.0674
 China,Manufacture of non-ferrous metals and non-metallic minerals,shock 3.1,1175000694800.0674
 China,Manufacture of non-ferrous metals and non-metallic minerals,shock 3.2,1175000694799.7866
 China,"Agriculture, forestry, animals raising, fisheries and food production",baseline,1523759972912.2156
-China,"Agriculture, forestry, animals raising, fisheries and food production",shock 0,1523759972912.2158
 China,"Agriculture, forestry, animals raising, fisheries and food production",shock 1.1,1523759972912.48
 China,"Agriculture, forestry, animals raising, fisheries and food production",shock 1.2,1523759972912.48
 China,"Agriculture, forestry, animals raising, fisheries and food production",shock 2,1523759972912.2158
 China,"Agriculture, forestry, animals raising, fisheries and food production",shock 3.1,1523759972912.2158
 China,"Agriculture, forestry, animals raising, fisheries and food production",shock 3.2,1523759972912.09
 China,Chemicals and petrochemicals,baseline,1061293801823.9287
-China,Chemicals and petrochemicals,shock 0,1061293801823.9281
 China,Chemicals and petrochemicals,shock 1.1,1061293801824.625
 China,Chemicals and petrochemicals,shock 1.2,1061293801824.625
 China,Chemicals and petrochemicals,shock 2,1061293801823.9281
 China,Chemicals and petrochemicals,shock 3.1,1061293801823.9281
 China,Chemicals and petrochemicals,shock 3.2,1061293801823.4448
 China,"Fossil fuels extraction, refinery and distribution",baseline,780523814830.4542
-China,"Fossil fuels extraction, refinery and distribution",shock 0,780523814830.4537
 China,"Fossil fuels extraction, refinery and distribution",shock 1.1,780523814830.802
 China,"Fossil fuels extraction, refinery and distribution",shock 1.2,780523814830.8019
 China,"Fossil fuels extraction, refinery and distribution",shock 2,780523814830.4537
 China,"Fossil fuels extraction, refinery and distribution",shock 3.1,780523814830.4537
 China,"Fossil fuels extraction, refinery and distribution",shock 3.2,780523814829.7915
 China,"Manufacture of iron, steel and related products",baseline,716258994448.8469
-China,"Manufacture of iron, steel and related products",shock 0,716258994448.8463
 China,"Manufacture of iron, steel and related products",shock 1.1,716258994449.2399
 China,"Manufacture of iron, steel and related products",shock 1.2,716258994449.2399
 China,"Manufacture of iron, steel and related products",shock 2,716258994448.8463
 China,"Manufacture of iron, steel and related products",shock 3.1,716258994448.8463
 China,"Manufacture of iron, steel and related products",shock 3.2,716258994448.6134
 China,Manufacture of cement and related products,baseline,63426767164.20908
-China,Manufacture of cement and related products,shock 0,63426767164.209114
 China,Manufacture of cement and related products,shock 1.1,63426767164.21167
 China,Manufacture of cement and related products,shock 1.2,63426767164.21168
 China,Manufacture of cement and related products,shock 2,63426767164.209114
 China,Manufacture of cement and related products,shock 3.1,63426767164.209114
 China,Manufacture of cement and related products,shock 3.2,63426767164.20789
 China,Manufacture of electrical machinery,baseline,535770832809.8845
-China,Manufacture of electrical machinery,shock 0,535770832809.88574
 China,Manufacture of electrical machinery,shock 1.1,535770832810.32086
 China,Manufacture of electrical machinery,shock 1.2,535770832810.32086
 China,Manufacture of electrical machinery,shock 2,535770832809.88574
 China,Manufacture of electrical machinery,shock 3.1,535770832809.88574
 China,Manufacture of electrical machinery,shock 3.2,535770832809.7633
 China,Other manufacturing,baseline,3744700641269.4893
-China,Other manufacturing,shock 0,3744700641269.489
 China,Other manufacturing,shock 1.1,3744700641271.3584
 China,Other manufacturing,shock 1.2,3744700641271.358
 China,Other manufacturing,shock 2,3744700641269.489
 China,Other manufacturing,shock 3.1,3744700641269.489
 China,Other manufacturing,shock 3.2,3744700641268.598
 China,Other mining and quarrying,baseline,204408145453.746
-China,Other mining and quarrying,shock 0,204408145453.74597
 China,Other mining and quarrying,shock 1.1,204408145453.85358
 China,Other mining and quarrying,shock 1.2,204408145453.85358
 China,Other mining and quarrying,shock 2,204408145453.74597
 China,Other mining and quarrying,shock 3.1,204408145453.74597
 China,Other mining and quarrying,shock 3.2,204408145453.69196
 China,Low-carbon electricity production,baseline,62193972427.67177
-China,Low-carbon electricity production,shock 0,62193972427.67177
 China,Low-carbon electricity production,shock 1.1,62193972427.69841
 China,Low-carbon electricity production,shock 1.2,62193972427.69839
 China,Low-carbon electricity production,shock 2,62193972427.67177
 China,Low-carbon electricity production,shock 3.1,62193972427.67177
 China,Low-carbon electricity production,shock 3.2,62193972427.65513
 China,Carbon intensive electricity production,baseline,288808841177.54236
-China,Carbon intensive electricity production,shock 0,288808841177.54236
 China,Carbon intensive electricity production,shock 1.1,288808841177.6656
 China,Carbon intensive electricity production,shock 1.2,288808841177.6656
 China,Carbon intensive electricity production,shock 2,288808841177.54236
 China,Carbon intensive electricity production,shock 3.1,288808841177.54236
 China,Carbon intensive electricity production,shock 3.2,288808841177.46545
 EU27+UK,Other services,baseline,15517158240065.367
-EU27+UK,Other services,shock 0,15517158240065.357
 EU27+UK,Other services,shock 1.1,15517158240158.826
 EU27+UK,Other services,shock 1.2,15517158240158.803
 EU27+UK,Other services,shock 2,15517158240065.357
 EU27+UK,Other services,shock 3.1,15517158240065.357
 EU27+UK,Other services,shock 3.2,15517158240052.201
 EU27+UK,Transport,baseline,1088995368619.0579
-EU27+UK,Transport,shock 0,1088995368619.0565
 EU27+UK,Transport,shock 1.1,1088995368637.4203
 EU27+UK,Transport,shock 1.2,1088995368637.4169
 EU27+UK,Transport,shock 2,1088995368619.0565
 EU27+UK,Transport,shock 3.1,1088995368619.0565
 EU27+UK,Transport,shock 3.2,1088995368612.4155
 EU27+UK,Manufacture of non-ferrous metals and non-metallic minerals,baseline,890763040149.5533
-EU27+UK,Manufacture of non-ferrous metals and non-metallic minerals,shock 0,890763040149.5525
 EU27+UK,Manufacture of non-ferrous metals and non-metallic minerals,shock 1.1,890763040159.3951
 EU27+UK,Manufacture of non-ferrous metals and non-metallic minerals,shock 1.2,890763040159.392
 EU27+UK,Manufacture of non-ferrous metals and non-metallic minerals,shock 2,890763040149.5525
 EU27+UK,Manufacture of non-ferrous metals and non-metallic minerals,shock 3.1,890763040149.5525
 EU27+UK,Manufacture of non-ferrous metals and non-metallic minerals,shock 3.2,890763040148.0146
 EU27+UK,"Agriculture, forestry, animals raising, fisheries and food production",baseline,1460209642607.6843
-EU27+UK,"Agriculture, forestry, animals raising, fisheries and food production",shock 0,1460209642607.6838
 EU27+UK,"Agriculture, forestry, animals raising, fisheries and food production",shock 1.1,1460209642609.9028
 EU27+UK,"Agriculture, forestry, animals raising, fisheries and food production",shock 1.2,1460209642609.9019
 EU27+UK,"Agriculture, forestry, animals raising, fisheries and food production",shock 2,1460209642607.6838
 EU27+UK,"Agriculture, forestry, animals raising, fisheries and food production",shock 3.1,1460209642607.6838
 EU27+UK,"Agriculture, forestry, animals raising, fisheries and food production",shock 3.2,1460209642607.3457
 EU27+UK,Chemicals and petrochemicals,baseline,435401673896.7817
-EU27+UK,Chemicals and petrochemicals,shock 0,435401673896.78174
 EU27+UK,Chemicals and petrochemicals,shock 1.1,435401673900.81744
 EU27+UK,Chemicals and petrochemicals,shock 1.2,435401673900.8168
 EU27+UK,Chemicals and petrochemicals,shock 2,435401673896.78174
 EU27+UK,Chemicals and petrochemicals,shock 3.1,435401673896.78174
 EU27+UK,Chemicals and petrochemicals,shock 3.2,435401673895.52875
 EU27+UK,"Fossil fuels extraction, refinery and distribution",baseline,667403121978.8767
-EU27+UK,"Fossil fuels extraction, refinery and distribution",shock 0,667403121978.8755
 EU27+UK,"Fossil fuels extraction, refinery and distribution",shock 1.1,667403122036.8517
 EU27+UK,"Fossil fuels extraction, refinery and distribution",shock 1.2,667403122036.8489
 EU27+UK,"Fossil fuels extraction, refinery and distribution",shock 2,667403121978.8755
 EU27+UK,"Fossil fuels extraction, refinery and distribution",shock 3.1,667403121978.8755
 EU27+UK,"Fossil fuels extraction, refinery and distribution",shock 3.2,667403121922.586
 EU27+UK,"Manufacture of iron, steel and related products",baseline,198512501358.99884
-EU27+UK,"Manufacture of iron, steel and related products",shock 0,198512501358.99893
 EU27+UK,"Manufacture of iron, steel and related products",shock 1.1,198512501361.22098
 EU27+UK,"Manufacture of iron, steel and related products",shock 1.2,198512501361.22073
 EU27+UK,"Manufacture of iron, steel and related products",shock 2,198512501358.99893
 EU27+UK,"Manufacture of iron, steel and related products",shock 3.1,198512501358.99893
 EU27+UK,"Manufacture of iron, steel and related products",shock 3.2,198512501358.67276
 EU27+UK,Manufacture of cement and related products,baseline,103497118372.3422
-EU27+UK,Manufacture of cement and related products,shock 0,103497118372.34236
 EU27+UK,Manufacture of cement and related products,shock 1.1,103497118373.16959
 EU27+UK,Manufacture of cement and related products,shock 1.2,103497118373.16948
 EU27+UK,Manufacture of cement and related products,shock 2,103497118372.34236
 EU27+UK,Manufacture of cement and related products,shock 3.1,103497118372.34236
 EU27+UK,Manufacture of cement and related products,shock 3.2,103497118372.30432
 EU27+UK,Manufacture of electrical machinery,baseline,313161734022.35895
-EU27+UK,Manufacture of electrical machinery,shock 0,313161734022.35815
 EU27+UK,Manufacture of electrical machinery,shock 1.1,313161734028.2273
 EU27+UK,Manufacture of electrical machinery,shock 1.2,313161734028.2258
 EU27+UK,Manufacture of electrical machinery,shock 2,313161734022.35815
 EU27+UK,Manufacture of electrical machinery,shock 3.1,313161734022.35815
 EU27+UK,Manufacture of electrical machinery,shock 3.2,313161734021.8216
 EU27+UK,Other manufacturing,baseline,3941984009664.7856
-EU27+UK,Other manufacturing,shock 0,3941984009664.785
 EU27+UK,Other manufacturing,shock 1.1,3941984009689.375
 EU27+UK,Other manufacturing,shock 1.2,3941984009689.372
 EU27+UK,Other manufacturing,shock 2,3941984009664.785
 EU27+UK,Other manufacturing,shock 3.1,3941984009664.785
 EU27+UK,Other manufacturing,shock 3.2,3941984009657.626
 EU27+UK,Other mining and quarrying,baseline,72826228351.4156
-EU27+UK,Other mining and quarrying,shock 0,72826228351.41504
 EU27+UK,Other mining and quarrying,shock 1.1,72826228352.08583
 EU27+UK,Other mining and quarrying,shock 1.2,72826228352.08453
 EU27+UK,Other mining and quarrying,shock 2,72826228351.41504
 EU27+UK,Other mining and quarrying,shock 3.1,72826228351.41504
 EU27+UK,Other mining and quarrying,shock 3.2,72826228351.14008
 EU27+UK,Low-carbon electricity production,baseline,114429949124.88745
-EU27+UK,Low-carbon electricity production,shock 0,114429949124.8874
 EU27+UK,Low-carbon electricity production,shock 1.1,114429949127.06937
 EU27+UK,Low-carbon electricity production,shock 1.2,114429949127.06915
 EU27+UK,Low-carbon electricity production,shock 2,114429949124.8874
 EU27+UK,Low-carbon electricity production,shock 3.1,114429949124.8874
 EU27+UK,Low-carbon electricity production,shock 3.2,114429949335.03476
 EU27+UK,Carbon intensive electricity production,baseline,196199448190.61737
-EU27+UK,Carbon intensive electricity production,shock 0,196199448190.61688
 EU27+UK,Carbon intensive electricity production,shock 1.1,196199448409.2504
 EU27+UK,Carbon intensive electricity production,shock 1.2,196199448409.24927
 EU27+UK,Carbon intensive electricity production,shock 2,196199448190.61688
 EU27+UK,Carbon intensive electricity production,shock 3.1,196199448190.61688
 EU27+UK,Carbon intensive electricity production,shock 3.2,196199447974.16547
 RoW,Other services,baseline,23212508188421.51
-RoW,Other services,shock 0,23212508188421.51
 RoW,Other services,shock 1.1,23212508188433.03
 RoW,Other services,shock 1.2,23212508188433.027
 RoW,Other services,shock 2,23212508188421.51
 RoW,Other services,shock 3.1,23212508188421.51
 RoW,Other services,shock 3.2,23212508188409.402
 RoW,Transport,baseline,1938476542835.9348
-RoW,Transport,shock 0,1938476542835.935
 RoW,Transport,shock 1.1,1938476542840.8801
 RoW,Transport,shock 1.2,1938476542840.8794
 RoW,Transport,shock 2,1938476542835.935
 RoW,Transport,shock 3.1,1938476542835.935
 RoW,Transport,shock 3.2,1938476542833.1885
 RoW,Manufacture of non-ferrous metals and non-metallic minerals,baseline,1447995001549.7588
-RoW,Manufacture of non-ferrous metals and non-metallic minerals,shock 0,1447995001549.7595
 RoW,Manufacture of non-ferrous metals and non-metallic minerals,shock 1.1,1447995001551.5566
 RoW,Manufacture of non-ferrous metals and non-metallic minerals,shock 1.2,1447995001551.5562
 RoW,Manufacture of non-ferrous metals and non-metallic minerals,shock 2,1447995001549.7595
 RoW,Manufacture of non-ferrous metals and non-metallic minerals,shock 3.1,1447995001549.7595
 RoW,Manufacture of non-ferrous metals and non-metallic minerals,shock 3.2,1447995001548.4272
 RoW,"Agriculture, forestry, animals raising, fisheries and food production",baseline,4127849846490.5093
-RoW,"Agriculture, forestry, animals raising, fisheries and food production",shock 0,4127849846490.5083
 RoW,"Agriculture, forestry, animals raising, fisheries and food production",shock 1.1,4127849846491.6226
 RoW,"Agriculture, forestry, animals raising, fisheries and food production",shock 1.2,4127849846491.621
 RoW,"Agriculture, forestry, animals raising, fisheries and food production",shock 2,4127849846490.5083
 RoW,"Agriculture, forestry, animals raising, fisheries and food production",shock 3.1,4127849846490.5083
 RoW,"Agriculture, forestry, animals raising, fisheries and food production",shock 3.2,4127849846489.5293
 RoW,Chemicals and petrochemicals,baseline,1763483664843.777
-RoW,Chemicals and petrochemicals,shock 0,1763483664843.7766
 RoW,Chemicals and petrochemicals,shock 1.1,1763483664847.1104
 RoW,Chemicals and petrochemicals,shock 1.2,1763483664847.108
 RoW,Chemicals and petrochemicals,shock 2,1763483664843.7766
 RoW,Chemicals and petrochemicals,shock 3.1,1763483664843.7766
 RoW,Chemicals and petrochemicals,shock 3.2,1763483664840.741
 RoW,"Fossil fuels extraction, refinery and distribution",baseline,2958441113493.2173
-RoW,"Fossil fuels extraction, refinery and distribution",shock 0,2958441113493.2173
 RoW,"Fossil fuels extraction, refinery and distribution",shock 1.1,2958441113526.156
 RoW,"Fossil fuels extraction, refinery and distribution",shock 1.2,2958441113526.1543
 RoW,"Fossil fuels extraction, refinery and distribution",shock 2,2958441113493.2173
 RoW,"Fossil fuels extraction, refinery and distribution",shock 3.1,2958441113493.2173
 RoW,"Fossil fuels extraction, refinery and distribution",shock 3.2,2958441113422.591
 RoW,"Manufacture of iron, steel and related products",baseline,745463545773.924
-RoW,"Manufacture of iron, steel and related products",shock 0,745463545773.9241
 RoW,"Manufacture of iron, steel and related products",shock 1.1,745463545775.008
 RoW,"Manufacture of iron, steel and related products",shock 1.2,745463545775.0079
 RoW,"Manufacture of iron, steel and related products",shock 2,745463545773.9241
 RoW,"Manufacture of iron, steel and related products",shock 3.1,745463545773.9241
 RoW,"Manufacture of iron, steel and related products",shock 3.2,745463545772.8853
 RoW,Manufacture of cement and related products,baseline,105954415153.0272
-RoW,Manufacture of cement and related products,shock 0,105954415153.02733
 RoW,Manufacture of cement and related products,shock 1.1,105954415153.07004
 RoW,Manufacture of cement and related products,shock 1.2,105954415153.06996
 RoW,Manufacture of cement and related products,shock 2,105954415153.02733
 RoW,Manufacture of cement and related products,shock 3.1,105954415153.02733
 RoW,Manufacture of cement and related products,shock 3.2,105954415152.97243
 RoW,Manufacture of electrical machinery,baseline,564992190355.9691
-RoW,Manufacture of electrical machinery,shock 0,564992190355.9688
 RoW,Manufacture of electrical machinery,shock 1.1,564992190357.1378
 RoW,Manufacture of electrical machinery,shock 1.2,564992190357.1375
 RoW,Manufacture of electrical machinery,shock 2,564992190355.9688
 RoW,Manufacture of electrical machinery,shock 3.1,564992190355.9688
 RoW,Manufacture of electrical machinery,shock 3.2,564992190355.5198
 RoW,Other manufacturing,baseline,6325615340459.948
-RoW,Other manufacturing,shock 0,6325615340459.949
 RoW,Other manufacturing,shock 1.1,6325615340463.941
 RoW,Other manufacturing,shock 1.2,6325615340463.94
 RoW,Other manufacturing,shock 2,6325615340459.949
 RoW,Other manufacturing,shock 3.1,6325615340459.949
 RoW,Other manufacturing,shock 3.2,6325615340456.765
 RoW,Other mining and quarrying,baseline,544140612332.92883
-RoW,Other mining and quarrying,shock 0,544140612332.9291
 RoW,Other mining and quarrying,shock 1.1,544140612333.794
 RoW,Other mining and quarrying,shock 1.2,544140612333.7938
 RoW,Other mining and quarrying,shock 2,544140612332.9291
 RoW,Other mining and quarrying,shock 3.1,544140612332.9291
 RoW,Other mining and quarrying,shock 3.2,544140612332.3273
 RoW,Low-carbon electricity production,baseline,167623007428.14062
-RoW,Low-carbon electricity production,shock 0,167623007428.14062
 RoW,Low-carbon electricity production,shock 1.1,167623007428.38055
 RoW,Low-carbon electricity production,shock 1.2,167623007428.38046
 RoW,Low-carbon electricity production,shock 2,167623007428.14062
 RoW,Low-carbon electricity production,shock 3.1,167623007428.14062
 RoW,Low-carbon electricity production,shock 3.2,167623007427.77765
 RoW,Carbon intensive electricity production,baseline,374876222578.15576
-RoW,Carbon intensive electricity production,shock 0,374876222578.1557
 RoW,Carbon intensive electricity production,shock 1.1,374876222578.7093
 RoW,Carbon intensive electricity production,shock 1.2,374876222578.70917
 RoW,Carbon intensive electricity production,shock 2,374876222578.1557
 RoW,Carbon intensive electricity production,shock 3.1,374876222578.1557
 RoW,Carbon intensive electricity production,shock 3.2,374876222577.3144
 USA,Other services,baseline,14090705570518.707
-USA,Other services,shock 0,14090705570518.709
 USA,Other services,shock 1.1,14090705570521.318
 USA,Other services,shock 1.2,14090705570521.318
 USA,Other services,shock 2,14090705570518.709
 USA,Other services,shock 3.1,14090705570518.709
 USA,Other services,shock 3.2,14090705570517.188
 USA,Transport,baseline,517646295211.22003
-USA,Transport,shock 0,517646295211.2202
 USA,Transport,shock 1.1,517646295211.55304
 USA,Transport,shock 1.2,517646295211.55304
 USA,Transport,shock 2,517646295211.2202
 USA,Transport,shock 3.1,517646295211.2202
 USA,Transport,shock 3.2,517646295211.0798
 USA,Manufacture of non-ferrous metals and non-metallic minerals,baseline,403644926565.6691
-USA,Manufacture of non-ferrous metals and non-metallic minerals,shock 0,403644926565.66925
 USA,Manufacture of non-ferrous metals and non-metallic minerals,shock 1.1,403644926565.9208
 USA,Manufacture of non-ferrous metals and non-metallic minerals,shock 1.2,403644926565.92084
 USA,Manufacture of non-ferrous metals and non-metallic minerals,shock 2,403644926565.66925
 USA,Manufacture of non-ferrous metals and non-metallic minerals,shock 3.1,403644926565.66925
 USA,Manufacture of non-ferrous metals and non-metallic minerals,shock 3.2,403644926565.53375
 USA,"Agriculture, forestry, animals raising, fisheries and food production",baseline,1015058298851.52
-USA,"Agriculture, forestry, animals raising, fisheries and food production",shock 0,1015058298851.5201
 USA,"Agriculture, forestry, animals raising, fisheries and food production",shock 1.1,1015058298851.6108
 USA,"Agriculture, forestry, animals raising, fisheries and food production",shock 1.2,1015058298851.6108
 USA,"Agriculture, forestry, animals raising, fisheries and food production",shock 2,1015058298851.5201
 USA,"Agriculture, forestry, animals raising, fisheries and food production",shock 3.1,1015058298851.5201
 USA,"Agriculture, forestry, animals raising, fisheries and food production",shock 3.2,1015058298851.4517
 USA,Chemicals and petrochemicals,baseline,621966881985.4917
-USA,Chemicals and petrochemicals,shock 0,621966881985.4918
 USA,Chemicals and petrochemicals,shock 1.1,621966881986.3293
 USA,Chemicals and petrochemicals,shock 1.2,621966881986.3291
 USA,Chemicals and petrochemicals,shock 2,621966881985.4918
 USA,Chemicals and petrochemicals,shock 3.1,621966881985.4918
 USA,Chemicals and petrochemicals,shock 3.2,621966881984.7136
 USA,"Fossil fuels extraction, refinery and distribution",baseline,624141494466.525
-USA,"Fossil fuels extraction, refinery and distribution",shock 0,624141494466.5251
 USA,"Fossil fuels extraction, refinery and distribution",shock 1.1,624141494466.9865
 USA,"Fossil fuels extraction, refinery and distribution",shock 1.2,624141494466.9862
 USA,"Fossil fuels extraction, refinery and distribution",shock 2,624141494466.5251
 USA,"Fossil fuels extraction, refinery and distribution",shock 3.1,624141494466.5251
 USA,"Fossil fuels extraction, refinery and distribution",shock 3.2,624141494463.7784
 USA,"Manufacture of iron, steel and related products",baseline,84933452318.46106
-USA,"Manufacture of iron, steel and related products",shock 0,84933452318.46107
 USA,"Manufacture of iron, steel and related products",shock 1.1,84933452318.52151
 USA,"Manufacture of iron, steel and related products",shock 1.2,84933452318.52153
 USA,"Manufacture of iron, steel and related products",shock 2,84933452318.46107
 USA,"Manufacture of iron, steel and related products",shock 3.1,84933452318.46107
 USA,"Manufacture of iron, steel and related products",shock 3.2,84933452318.41277
 USA,Manufacture of cement and related products,baseline,50470115284.618835
-USA,Manufacture of cement and related products,shock 0,50470115284.618866
 USA,Manufacture of cement and related products,shock 1.1,50470115284.62465
 USA,Manufacture of cement and related products,shock 1.2,50470115284.62467
 USA,Manufacture of cement and related products,shock 2,50470115284.618866
 USA,Manufacture of cement and related products,shock 3.1,50470115284.618866
 USA,Manufacture of cement and related products,shock 3.2,50470115284.61136
 USA,Manufacture of electrical machinery,baseline,102914237695.57526
-USA,Manufacture of electrical machinery,shock 0,102914237695.57529
 USA,Manufacture of electrical machinery,shock 1.1,102914237695.71072
 USA,Manufacture of electrical machinery,shock 1.2,102914237695.7107
 USA,Manufacture of electrical machinery,shock 2,102914237695.57529
 USA,Manufacture of electrical machinery,shock 3.1,102914237695.57529
 USA,Manufacture of electrical machinery,shock 3.2,102914237695.53764
 USA,Other manufacturing,baseline,2763019319644.9844
-USA,Other manufacturing,shock 0,2763019319644.9844
 USA,Other manufacturing,shock 1.1,2763019319645.81
 USA,Other manufacturing,shock 1.2,2763019319645.8096
 USA,Other manufacturing,shock 2,2763019319644.9844
 USA,Other manufacturing,shock 3.1,2763019319644.9844
 USA,Other manufacturing,shock 3.2,2763019319644.4937
 USA,Other mining and quarrying,baseline,54617623634.47291
-USA,Other mining and quarrying,shock 0,54617623634.47287
 USA,Other mining and quarrying,shock 1.1,54617623634.50837
 USA,Other mining and quarrying,shock 1.2,54617623634.50829
 USA,Other mining and quarrying,shock 2,54617623634.47287
 USA,Other mining and quarrying,shock 3.1,54617623634.47287
 USA,Other mining and quarrying,shock 3.2,54617623634.44384
 USA,Low-carbon electricity production,baseline,47506946425.51447
-USA,Low-carbon electricity production,shock 0,47506946425.51447
 USA,Low-carbon electricity production,shock 1.1,47506946425.522194
 USA,Low-carbon electricity production,shock 1.2,47506946425.522194
 USA,Low-carbon electricity production,shock 2,47506946425.51447
 USA,Low-carbon electricity production,shock 3.1,47506946425.51447
 USA,Low-carbon electricity production,shock 3.2,47506946425.50345
 USA,Carbon intensive electricity production,baseline,122862436652.48137
-USA,Carbon intensive electricity production,shock 0,122862436652.48137
 USA,Carbon intensive electricity production,shock 1.1,122862436652.50621
 USA,Carbon intensive electricity production,shock 1.2,122862436652.50623
 USA,Carbon intensive electricity production,shock 2,122862436652.48137

@@ -1,755 +1,647 @@
 region_from,flow_name,unit,scenario,value
 China,Chemicals and petrochemicals products,EUR,baseline,1136749257603.5017
-China,Chemicals and petrochemicals products,EUR,shock 0,1136749257603.5015
 China,Chemicals and petrochemicals products,EUR,shock 1.1,1136749257604.251
 China,Chemicals and petrochemicals products,EUR,shock 1.2,1136749257604.251
 China,Chemicals and petrochemicals products,EUR,shock 2,1136749257603.5015
 China,Chemicals and petrochemicals products,EUR,shock 3.1,1136749257603.5015
 China,Chemicals and petrochemicals products,EUR,shock 3.2,1136749257602.9878
 China,Transportation services,EUR,baseline,283504210282.9055
-China,Transportation services,EUR,shock 0,283504210282.90546
 China,Transportation services,EUR,shock 1.1,283504210283.32135
 China,Transportation services,EUR,shock 1.2,283504210283.32135
 China,Transportation services,EUR,shock 2,283504210282.90546
 China,Transportation services,EUR,shock 3.1,283504210282.90546
 China,Transportation services,EUR,shock 3.2,283504210282.8219
 China,"Non-ferrous metals, non-metallic mineral products",EUR,baseline,673265382415.1794
-China,"Non-ferrous metals, non-metallic mineral products",EUR,shock 0,673265382415.1793
 China,"Non-ferrous metals, non-metallic mineral products",EUR,shock 1.1,673265382415.505
 China,"Non-ferrous metals, non-metallic mineral products",EUR,shock 1.2,673265382415.505
 China,"Non-ferrous metals, non-metallic mineral products",EUR,shock 2,673265382415.1793
 China,"Non-ferrous metals, non-metallic mineral products",EUR,shock 3.1,673265382415.1793
 China,"Non-ferrous metals, non-metallic mineral products",EUR,shock 3.2,673265382415.026
 China,Other mining and quarrying products,EUR,baseline,204408004720.18854
-China,Other mining and quarrying products,EUR,shock 0,204408004720.1885
 China,Other mining and quarrying products,EUR,shock 1.1,204408004720.2961
 China,Other mining and quarrying products,EUR,shock 1.2,204408004720.2961
 China,Other mining and quarrying products,EUR,shock 2,204408004720.1885
 China,Other mining and quarrying products,EUR,shock 3.1,204408004720.1885
 China,Other mining and quarrying products,EUR,shock 3.2,204408004720.13437
 China,"Agriculture, forestry, animal raising and fisheries products",EUR,baseline,754032973264.2891
-China,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 0,754032973264.2891
 China,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 1.1,754032973264.4395
 China,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 1.2,754032973264.4395
 China,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 2,754032973264.2891
 China,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 3.1,754032973264.2891
 China,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 3.2,754032973264.2198
 China,Fossils and refined fossil products,EUR,baseline,763701605531.6163
-China,Fossils and refined fossil products,EUR,shock 0,763701605531.6161
 China,Fossils and refined fossil products,EUR,shock 1.1,763701605531.9602
 China,Fossils and refined fossil products,EUR,shock 1.2,763701605531.9602
 China,Fossils and refined fossil products,EUR,shock 2,763701605531.6161
 China,Fossils and refined fossil products,EUR,shock 3.1,763701605531.6161
 China,Fossils and refined fossil products,EUR,shock 3.2,763701605530.9562
 China,Iron and steel products,EUR,baseline,1057185906591.8499
-China,Iron and steel products,EUR,shock 0,1057185906591.8497
 China,Iron and steel products,EUR,shock 1.1,1057185906592.4767
 China,Iron and steel products,EUR,shock 1.2,1057185906592.4767
 China,Iron and steel products,EUR,shock 2,1057185906591.8497
 China,Iron and steel products,EUR,shock 3.1,1057185906591.8497
 China,Iron and steel products,EUR,shock 3.2,1057185906591.4945
 China,Food products,EUR,baseline,769726999673.7687
-China,Food products,EUR,shock 0,769726999673.7687
 China,Food products,EUR,shock 1.1,769726999673.8828
 China,Food products,EUR,shock 1.2,769726999673.8828
 China,Food products,EUR,shock 2,769726999673.7687
 China,Food products,EUR,shock 3.1,769726999673.7687
 China,Food products,EUR,shock 3.2,769726999673.7126
 China,Other manufacturing products,EUR,baseline,3830053164840.007
-China,Other manufacturing products,EUR,shock 0,3830053164840.007
 China,Other manufacturing products,EUR,shock 1.1,3830053164841.84
 China,Other manufacturing products,EUR,shock 1.2,3830053164841.839
 China,Other manufacturing products,EUR,shock 2,3830053164840.007
 China,Other manufacturing products,EUR,shock 3.1,3830053164840.007
 China,Other manufacturing products,EUR,shock 3.2,3830053164839.1406
 China,Cement and related products,EUR,baseline,63426767159.18895
-China,Cement and related products,EUR,shock 0,63426767159.18894
 China,Cement and related products,EUR,shock 1.1,63426767159.19153
 China,Cement and related products,EUR,shock 1.2,63426767159.19153
 China,Cement and related products,EUR,shock 2,63426767159.18894
 China,Cement and related products,EUR,shock 3.1,63426767159.18894
 China,Cement and related products,EUR,shock 3.2,63426767159.18773
 China,Other services,EUR,baseline,4085173242857.2217
-China,Other services,EUR,shock 0,4085173242857.2207
 China,Other services,EUR,shock 1.1,4085173242858.1875
 China,Other services,EUR,shock 1.2,4085173242858.1875
 China,Other services,EUR,shock 2,4085173242857.2207
 China,Other services,EUR,shock 3.1,4085173242857.2207
 China,Other services,EUR,shock 3.2,4085173242856.707
 China,Construction,EUR,baseline,1495743593851.7524
-China,Construction,EUR,shock 0,1495743593851.7524
 China,Construction,EUR,shock 1.1,1495743593851.768
 China,Construction,EUR,shock 1.2,1495743593851.768
 China,Construction,EUR,shock 2,1495743593851.7524
 China,Construction,EUR,shock 3.1,1495743593851.7524
 China,Construction,EUR,shock 3.2,1495743593851.7473
 China,DFIG generators,EUR,baseline,0.0
-China,DFIG generators,EUR,shock 0,0.0
 China,DFIG generators,EUR,shock 1.1,0.0
 China,DFIG generators,EUR,shock 1.2,0.0
 China,DFIG generators,EUR,shock 2,0.0
 China,DFIG generators,EUR,shock 3.1,0.0
 China,DFIG generators,EUR,shock 3.2,0.0
 China,Dysprosium,EUR,baseline,0.0
-China,Dysprosium,EUR,shock 0,0.0
 China,Dysprosium,EUR,shock 1.1,0.0
 China,Dysprosium,EUR,shock 1.2,0.0
 China,Dysprosium,EUR,shock 2,0.0
 China,Dysprosium,EUR,shock 3.1,0.0
 China,Dysprosium,EUR,shock 3.2,0.0
 China,Electrical machinery and apparatus,EUR,baseline,535770832802.88934
-China,Electrical machinery and apparatus,EUR,shock 0,535770832802.88947
 China,Electrical machinery and apparatus,EUR,shock 1.1,535770832803.32446
 China,Electrical machinery and apparatus,EUR,shock 1.2,535770832803.3244
 China,Electrical machinery and apparatus,EUR,shock 2,535770832802.88947
 China,Electrical machinery and apparatus,EUR,shock 3.1,535770832802.88947
 China,Electrical machinery and apparatus,EUR,shock 3.2,535770832802.76685
 China,Other Renewable Electricity,EUR,baseline,54613946612.31032
-China,Other Renewable Electricity,EUR,shock 0,54613946612.310295
 China,Other Renewable Electricity,EUR,shock 1.1,54613946612.33366
 China,Other Renewable Electricity,EUR,shock 1.2,54613946612.33365
 China,Other Renewable Electricity,EUR,shock 2,54613946612.310295
 China,Other Renewable Electricity,EUR,shock 3.1,54613946612.310295
 China,Other Renewable Electricity,EUR,shock 3.2,54613946612.295715
 China,Non-Renewable Electricity,EUR,baseline,295735736096.0872
-China,Non-Renewable Electricity,EUR,shock 0,295735736096.0871
 China,Non-Renewable Electricity,EUR,shock 1.1,295735736096.2133
 China,Non-Renewable Electricity,EUR,shock 1.2,295735736096.2133
 China,Non-Renewable Electricity,EUR,shock 2,295735736096.0871
 China,Non-Renewable Electricity,EUR,shock 3.1,295735736096.0871
 China,Non-Renewable Electricity,EUR,shock 3.2,295735736096.0083
 China,Electricity by solar photovoltaic,EUR,baseline,12805269.73928709
-China,Electricity by solar photovoltaic,EUR,shock 0,12805269.739286114
 China,Electricity by solar photovoltaic,EUR,shock 1.1,12805269.739292901
 China,Electricity by solar photovoltaic,EUR,shock 1.2,12805269.73929159
 China,Electricity by solar photovoltaic,EUR,shock 2,12805269.739286114
 China,Electricity by solar photovoltaic,EUR,shock 3.1,12805269.739286114
 China,Electricity by solar photovoltaic,EUR,shock 3.2,12805269.739280583
 China,Electricity by wind,EUR,baseline,641169819.5418004
-China,Electricity by wind,EUR,shock 0,641169819.5417985
 China,Electricity by wind,EUR,shock 1.1,641169819.5420884
 China,Electricity by wind,EUR,shock 1.2,641169819.5420858
 China,Electricity by wind,EUR,shock 2,641169819.5417985
 China,Electricity by wind,EUR,shock 3.1,641169819.5417985
 China,Electricity by wind,EUR,shock 3.2,641169819.541586
 China,Mono-Si and poli-Si cells,EUR,baseline,-8.823921754978277e-06
-China,Mono-Si and poli-Si cells,EUR,shock 0,-1.3322171828995435e-05
 China,Mono-Si and poli-Si cells,EUR,shock 1.1,-7.276639309094908e-06
 China,Mono-Si and poli-Si cells,EUR,shock 1.2,-1.3322171828995835e-05
 China,Mono-Si and poli-Si cells,EUR,shock 2,-1.3322171828995435e-05
 China,Mono-Si and poli-Si cells,EUR,shock 3.1,-1.3322171828995435e-05
 China,Mono-Si and poli-Si cells,EUR,shock 3.2,-1.3322171828991577e-05
 China,Neodymium,EUR,baseline,0.0
-China,Neodymium,EUR,shock 0,0.0
 China,Neodymium,EUR,shock 1.1,0.0
 China,Neodymium,EUR,shock 1.2,0.0
 China,Neodymium,EUR,shock 2,0.0
 China,Neodymium,EUR,shock 3.1,0.0
 China,Neodymium,EUR,shock 3.2,0.0
 China,Offshore wind plants,EUR,baseline,0.0
-China,Offshore wind plants,EUR,shock 0,0.0
 China,Offshore wind plants,EUR,shock 1.1,0.0
 China,Offshore wind plants,EUR,shock 1.2,0.0
 China,Offshore wind plants,EUR,shock 2,0.0
 China,Offshore wind plants,EUR,shock 3.1,0.0
 China,Offshore wind plants,EUR,shock 3.2,0.0
 China,Onshore wind plants,EUR,baseline,0.0
-China,Onshore wind plants,EUR,shock 0,0.0
 China,Onshore wind plants,EUR,shock 1.1,0.0
 China,Onshore wind plants,EUR,shock 1.2,0.0
 China,Onshore wind plants,EUR,shock 2,0.0
 China,Onshore wind plants,EUR,shock 3.1,0.0
 China,Onshore wind plants,EUR,shock 3.2,0.0
 China,PMG generators,EUR,baseline,0.0
-China,PMG generators,EUR,shock 0,0.0
 China,PMG generators,EUR,shock 1.1,0.0
 China,PMG generators,EUR,shock 1.2,0.0
 China,PMG generators,EUR,shock 2,0.0
 China,PMG generators,EUR,shock 3.1,0.0
 China,PMG generators,EUR,shock 3.2,0.0
 China,Photovoltaic modules,EUR,baseline,-2.005777529713101e-06
-China,Photovoltaic modules,EUR,shock 0,0.0
 China,Photovoltaic modules,EUR,shock 1.1,0.0
 China,Photovoltaic modules,EUR,shock 1.2,0.0
 China,Photovoltaic modules,EUR,shock 2,0.0
 China,Photovoltaic modules,EUR,shock 3.1,0.0
 China,Photovoltaic modules,EUR,shock 3.2,0.0
 China,Photovoltaic plants,EUR,baseline,0.0
-China,Photovoltaic plants,EUR,shock 0,0.0
 China,Photovoltaic plants,EUR,shock 1.1,0.0
 China,Photovoltaic plants,EUR,shock 1.2,0.0
 China,Photovoltaic plants,EUR,shock 2,0.0
 China,Photovoltaic plants,EUR,shock 3.1,0.0
 China,Photovoltaic plants,EUR,shock 3.2,0.0
 China,Raw silicon,EUR,baseline,-4.1238773257762975e-06
-China,Raw silicon,EUR,shock 0,-6.055970743925367e-06
 China,Raw silicon,EUR,shock 1.1,-3.3078026117381902e-06
 China,Raw silicon,EUR,shock 1.2,-6.055970743925547e-06
 China,Raw silicon,EUR,shock 2,-6.055970743925367e-06
 China,Raw silicon,EUR,shock 3.1,-6.055970743925367e-06
 China,Raw silicon,EUR,shock 3.2,-6.055970743923612e-06
 EU27+UK,Chemicals and petrochemicals products,EUR,baseline,767036068057.2344
-EU27+UK,Chemicals and petrochemicals products,EUR,shock 0,767036068057.2343
 EU27+UK,Chemicals and petrochemicals products,EUR,shock 1.1,767036068062.72
 EU27+UK,Chemicals and petrochemicals products,EUR,shock 1.2,767036068062.7195
 EU27+UK,Chemicals and petrochemicals products,EUR,shock 2,767036068057.2343
 EU27+UK,Chemicals and petrochemicals products,EUR,shock 3.1,767036068057.2343
 EU27+UK,Chemicals and petrochemicals products,EUR,shock 3.2,767036068055.0977
 EU27+UK,Transportation services,EUR,baseline,1061190502678.7588
-EU27+UK,Transportation services,EUR,shock 0,1061190502678.758
 EU27+UK,Transportation services,EUR,shock 1.1,1061190502697.0952
 EU27+UK,Transportation services,EUR,shock 1.2,1061190502697.0933
 EU27+UK,Transportation services,EUR,shock 2,1061190502678.758
 EU27+UK,Transportation services,EUR,shock 3.1,1061190502678.758
 EU27+UK,Transportation services,EUR,shock 3.2,1061190502671.9785
 EU27+UK,"Non-ferrous metals, non-metallic mineral products",EUR,baseline,289886354093.433
-EU27+UK,"Non-ferrous metals, non-metallic mineral products",EUR,shock 0,289886354093.4329
 EU27+UK,"Non-ferrous metals, non-metallic mineral products",EUR,shock 1.1,289886354096.3627
 EU27+UK,"Non-ferrous metals, non-metallic mineral products",EUR,shock 1.2,289886354096.36224
 EU27+UK,"Non-ferrous metals, non-metallic mineral products",EUR,shock 2,289886354093.4329
 EU27+UK,"Non-ferrous metals, non-metallic mineral products",EUR,shock 3.1,289886354093.4329
 EU27+UK,"Non-ferrous metals, non-metallic mineral products",EUR,shock 3.2,289886354093.0869
 EU27+UK,Other mining and quarrying products,EUR,baseline,71134054801.00807
-EU27+UK,Other mining and quarrying products,EUR,shock 0,71134054801.00798
 EU27+UK,Other mining and quarrying products,EUR,shock 1.1,71134054801.67897
 EU27+UK,Other mining and quarrying products,EUR,shock 1.2,71134054801.67868
 EU27+UK,Other mining and quarrying products,EUR,shock 2,71134054801.00798
 EU27+UK,Other mining and quarrying products,EUR,shock 3.1,71134054801.00798
 EU27+UK,Other mining and quarrying products,EUR,shock 3.2,71134054800.87729
 EU27+UK,"Agriculture, forestry, animal raising and fisheries products",EUR,baseline,458766513709.8833
-EU27+UK,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 0,458766513709.8832
 EU27+UK,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 1.1,458766513710.49976
 EU27+UK,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 1.2,458766513710.4994
 EU27+UK,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 2,458766513709.8832
 EU27+UK,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 3.1,458766513709.8832
 EU27+UK,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 3.2,458766513709.7523
 EU27+UK,Fossils and refined fossil products,EUR,baseline,502343637174.64526
-EU27+UK,Fossils and refined fossil products,EUR,shock 0,502343637174.645
 EU27+UK,Fossils and refined fossil products,EUR,shock 1.1,502343637188.36145
 EU27+UK,Fossils and refined fossil products,EUR,shock 1.2,502343637188.36084
 EU27+UK,Fossils and refined fossil products,EUR,shock 2,502343637174.645
 EU27+UK,Fossils and refined fossil products,EUR,shock 3.1,502343637174.645
 EU27+UK,Fossils and refined fossil products,EUR,shock 3.2,502343637130.3197
 EU27+UK,Iron and steel products,EUR,baseline,708180880454.275
-EU27+UK,Iron and steel products,EUR,shock 0,708180880454.2749
 EU27+UK,Iron and steel products,EUR,shock 1.1,708180880462.2649
 EU27+UK,Iron and steel products,EUR,shock 1.2,708180880462.2639
 EU27+UK,Iron and steel products,EUR,shock 2,708180880454.2749
 EU27+UK,Iron and steel products,EUR,shock 3.1,708180880454.2749
 EU27+UK,Iron and steel products,EUR,shock 3.2,708180880452.9971
 EU27+UK,Food products,EUR,baseline,1034117184138.738
-EU27+UK,Food products,EUR,shock 0,1034117184138.738
 EU27+UK,Food products,EUR,shock 1.1,1034117184139.847
 EU27+UK,Food products,EUR,shock 1.2,1034117184139.8467
 EU27+UK,Food products,EUR,shock 2,1034117184138.738
 EU27+UK,Food products,EUR,shock 3.1,1034117184138.738
 EU27+UK,Food products,EUR,shock 3.2,1034117184138.4473
 EU27+UK,Other manufacturing products,EUR,baseline,3613415533062.867
-EU27+UK,Other manufacturing products,EUR,shock 0,3613415533062.8667
 EU27+UK,Other manufacturing products,EUR,shock 1.1,3613415533082.499
 EU27+UK,Other manufacturing products,EUR,shock 1.2,3613415533082.4976
 EU27+UK,Other manufacturing products,EUR,shock 2,3613415533062.8667
 EU27+UK,Other manufacturing products,EUR,shock 3.1,3613415533062.8667
 EU27+UK,Other manufacturing products,EUR,shock 3.2,3613415533055.6445
 EU27+UK,Cement and related products,EUR,baseline,126516606399.25415
-EU27+UK,Cement and related products,EUR,shock 0,126516606399.25432
 EU27+UK,Cement and related products,EUR,shock 1.1,126516606400.21736
 EU27+UK,Cement and related products,EUR,shock 1.2,126516606400.21729
 EU27+UK,Cement and related products,EUR,shock 2,126516606399.25432
 EU27+UK,Cement and related products,EUR,shock 3.1,126516606399.25432
 EU27+UK,Cement and related products,EUR,shock 3.2,126516606399.32474
 EU27+UK,Other services,EUR,baseline,13809822165475.074
-EU27+UK,Other services,EUR,shock 0,13809822165475.07
 EU27+UK,Other services,EUR,shock 1.1,13809822165608.857
 EU27+UK,Other services,EUR,shock 1.2,13809822165608.848
 EU27+UK,Other services,EUR,shock 2,13809822165475.07
 EU27+UK,Other services,EUR,shock 3.1,13809822165475.07
 EU27+UK,Other services,EUR,shock 3.2,13809822165444.95
 EU27+UK,Construction,EUR,baseline,1923125577795.2742
-EU27+UK,Construction,EUR,shock 0,1923125577795.2747
 EU27+UK,Construction,EUR,shock 1.1,1923125577800.2915
 EU27+UK,Construction,EUR,shock 1.2,1923125577800.291
 EU27+UK,Construction,EUR,shock 2,1923125577795.2747
 EU27+UK,Construction,EUR,shock 3.1,1923125577795.2747
 EU27+UK,Construction,EUR,shock 3.2,1923125577796.8472
 EU27+UK,DFIG generators,EUR,baseline,0.0
-EU27+UK,DFIG generators,EUR,shock 0,0.0
 EU27+UK,DFIG generators,EUR,shock 1.1,0.0
 EU27+UK,DFIG generators,EUR,shock 1.2,0.0
 EU27+UK,DFIG generators,EUR,shock 2,0.0
 EU27+UK,DFIG generators,EUR,shock 3.1,0.0
 EU27+UK,DFIG generators,EUR,shock 3.2,0.0
 EU27+UK,Dysprosium,EUR,baseline,0.0
-EU27+UK,Dysprosium,EUR,shock 0,0.0
 EU27+UK,Dysprosium,EUR,shock 1.1,0.0
 EU27+UK,Dysprosium,EUR,shock 1.2,0.0
 EU27+UK,Dysprosium,EUR,shock 2,0.0
 EU27+UK,Dysprosium,EUR,shock 3.1,0.0
 EU27+UK,Dysprosium,EUR,shock 3.2,0.0
 EU27+UK,Electrical machinery and apparatus,EUR,baseline,354093105553.9435
-EU27+UK,Electrical machinery and apparatus,EUR,shock 0,354093105553.94336
 EU27+UK,Electrical machinery and apparatus,EUR,shock 1.1,354093105561.19806
 EU27+UK,Electrical machinery and apparatus,EUR,shock 1.2,354093105561.19763
 EU27+UK,Electrical machinery and apparatus,EUR,shock 2,354093105553.94336
 EU27+UK,Electrical machinery and apparatus,EUR,shock 3.1,354093105553.94336
 EU27+UK,Electrical machinery and apparatus,EUR,shock 3.2,354093105553.34375
 EU27+UK,Other Renewable Electricity,EUR,baseline,34025564640.096054
-EU27+UK,Other Renewable Electricity,EUR,shock 0,34025564640.09603
 EU27+UK,Other Renewable Electricity,EUR,shock 1.1,34025564641.063896
 EU27+UK,Other Renewable Electricity,EUR,shock 1.2,34025564641.063835
 EU27+UK,Other Renewable Electricity,EUR,shock 2,34025564640.09603
 EU27+UK,Other Renewable Electricity,EUR,shock 3.1,34025564640.09603
 EU27+UK,Other Renewable Electricity,EUR,shock 3.2,34025564639.786682
 EU27+UK,Non-Renewable Electricity,EUR,baseline,236402287315.8443
-EU27+UK,Non-Renewable Electricity,EUR,shock 0,236402287315.84418
 EU27+UK,Non-Renewable Electricity,EUR,shock 1.1,236402287537.94995
 EU27+UK,Non-Renewable Electricity,EUR,shock 1.2,236402287537.9496
 EU27+UK,Non-Renewable Electricity,EUR,shock 2,236402287315.84418
 EU27+UK,Non-Renewable Electricity,EUR,shock 3.1,236402287315.84418
 EU27+UK,Non-Renewable Electricity,EUR,shock 3.2,236402287097.1106
 EU27+UK,Electricity by solar photovoltaic,EUR,baseline,787067907.8619978
-EU27+UK,Electricity by solar photovoltaic,EUR,shock 0,787067907.8619962
 EU27+UK,Electricity by solar photovoltaic,EUR,shock 1.1,787067907.8685511
 EU27+UK,Electricity by solar photovoltaic,EUR,shock 1.2,787067907.8685485
 EU27+UK,Electricity by solar photovoltaic,EUR,shock 2,787067907.8619962
 EU27+UK,Electricity by solar photovoltaic,EUR,shock 3.1,787067907.8619962
 EU27+UK,Electricity by solar photovoltaic,EUR,shock 3.2,787067907.8595803
 EU27+UK,Electricity by wind,EUR,baseline,9698973046.782612
-EU27+UK,Electricity by wind,EUR,shock 0,9698973046.782604
 EU27+UK,Electricity by wind,EUR,shock 1.1,9698973047.065657
 EU27+UK,Electricity by wind,EUR,shock 1.2,9698973047.065632
 EU27+UK,Electricity by wind,EUR,shock 2,9698973046.782604
 EU27+UK,Electricity by wind,EUR,shock 3.1,9698973046.782604
 EU27+UK,Electricity by wind,EUR,shock 3.2,9698973263.693233
 EU27+UK,Mono-Si and poli-Si cells,EUR,baseline,-6.639164385969262e-06
-EU27+UK,Mono-Si and poli-Si cells,EUR,shock 0,-9.385568366071475e-06
 EU27+UK,Mono-Si and poli-Si cells,EUR,shock 1.1,-5.126446092078607e-06
 EU27+UK,Mono-Si and poli-Si cells,EUR,shock 1.2,-9.385568366071756e-06
 EU27+UK,Mono-Si and poli-Si cells,EUR,shock 2,-9.385568366071475e-06
 EU27+UK,Mono-Si and poli-Si cells,EUR,shock 3.1,-9.385568366071475e-06
 EU27+UK,Mono-Si and poli-Si cells,EUR,shock 3.2,-9.385568366068757e-06
 EU27+UK,Neodymium,EUR,baseline,0.0
-EU27+UK,Neodymium,EUR,shock 0,0.0
 EU27+UK,Neodymium,EUR,shock 1.1,0.0
 EU27+UK,Neodymium,EUR,shock 1.2,0.0
 EU27+UK,Neodymium,EUR,shock 2,0.0
 EU27+UK,Neodymium,EUR,shock 3.1,0.0
 EU27+UK,Neodymium,EUR,shock 3.2,0.0
 EU27+UK,Offshore wind plants,EUR,baseline,0.0
-EU27+UK,Offshore wind plants,EUR,shock 0,955729856.7737986
 EU27+UK,Offshore wind plants,EUR,shock 1.1,0.0
 EU27+UK,Offshore wind plants,EUR,shock 1.2,955729856.8001666
 EU27+UK,Offshore wind plants,EUR,shock 2,958922540.1807611
 EU27+UK,Offshore wind plants,EUR,shock 3.1,955729856.7737986
 EU27+UK,Offshore wind plants,EUR,shock 3.2,955729876.4419016
 EU27+UK,Onshore wind plants,EUR,baseline,0.0
-EU27+UK,Onshore wind plants,EUR,shock 0,553571539.9920233
 EU27+UK,Onshore wind plants,EUR,shock 1.1,0.0
 EU27+UK,Onshore wind plants,EUR,shock 1.2,553571540.0072961
 EU27+UK,Onshore wind plants,EUR,shock 2,553571539.9920233
 EU27+UK,Onshore wind plants,EUR,shock 3.1,553571539.9920233
 EU27+UK,Onshore wind plants,EUR,shock 3.2,553571551.3840522
 EU27+UK,PMG generators,EUR,baseline,0.0
-EU27+UK,PMG generators,EUR,shock 0,0.0
 EU27+UK,PMG generators,EUR,shock 1.1,0.0
 EU27+UK,PMG generators,EUR,shock 1.2,0.0
 EU27+UK,PMG generators,EUR,shock 2,0.0
 EU27+UK,PMG generators,EUR,shock 3.1,0.0
 EU27+UK,PMG generators,EUR,shock 3.2,0.0
 EU27+UK,Photovoltaic modules,EUR,baseline,-7.548467083756573e-06
-EU27+UK,Photovoltaic modules,EUR,shock 0,0.0
 EU27+UK,Photovoltaic modules,EUR,shock 1.1,0.0
 EU27+UK,Photovoltaic modules,EUR,shock 1.2,0.0
 EU27+UK,Photovoltaic modules,EUR,shock 2,0.0
 EU27+UK,Photovoltaic modules,EUR,shock 3.1,0.0
 EU27+UK,Photovoltaic modules,EUR,shock 3.2,0.0
 EU27+UK,Photovoltaic plants,EUR,baseline,0.0
-EU27+UK,Photovoltaic plants,EUR,shock 0,142317908.24960515
 EU27+UK,Photovoltaic plants,EUR,shock 1.1,0.0
 EU27+UK,Photovoltaic plants,EUR,shock 1.2,142317908.2507836
 EU27+UK,Photovoltaic plants,EUR,shock 2,142317908.24960515
 EU27+UK,Photovoltaic plants,EUR,shock 3.1,142317908.24960515
 EU27+UK,Photovoltaic plants,EUR,shock 3.2,142317908.24919134
 EU27+UK,Raw silicon,EUR,baseline,-4.165532911818857e-06
-EU27+UK,Raw silicon,EUR,shock 0,-6.117142557398372e-06
 EU27+UK,Raw silicon,EUR,shock 1.1,-3.341214973344088e-06
 EU27+UK,Raw silicon,EUR,shock 1.2,-6.117142557398556e-06
 EU27+UK,Raw silicon,EUR,shock 2,-6.117142557398372e-06
 EU27+UK,Raw silicon,EUR,shock 3.1,-6.117142557398372e-06
 EU27+UK,Raw silicon,EUR,shock 3.2,-6.1171425573966015e-06
 RoW,Chemicals and petrochemicals products,EUR,baseline,1980397446568.785
-RoW,Chemicals and petrochemicals products,EUR,shock 0,1980397446568.7847
 RoW,Chemicals and petrochemicals products,EUR,shock 1.1,1980397446572.5164
 RoW,Chemicals and petrochemicals products,EUR,shock 1.2,1980397446572.5159
 RoW,Chemicals and petrochemicals products,EUR,shock 2,1980397446568.7847
 RoW,Chemicals and petrochemicals products,EUR,shock 3.1,1980397446568.7847
 RoW,Chemicals and petrochemicals products,EUR,shock 3.2,1980397446565.7268
 RoW,Transportation services,EUR,baseline,1902820225907.896
-RoW,Transportation services,EUR,shock 0,1902820225907.896
 RoW,Transportation services,EUR,shock 1.1,1902820225912.8164
 RoW,Transportation services,EUR,shock 1.2,1902820225912.816
 RoW,Transportation services,EUR,shock 2,1902820225907.896
 RoW,Transportation services,EUR,shock 3.1,1902820225907.896
 RoW,Transportation services,EUR,shock 3.2,1902820225905.2134
 RoW,"Non-ferrous metals, non-metallic mineral products",EUR,baseline,668634157519.742
-RoW,"Non-ferrous metals, non-metallic mineral products",EUR,shock 0,668634157519.7422
 RoW,"Non-ferrous metals, non-metallic mineral products",EUR,shock 1.1,668634157520.8696
 RoW,"Non-ferrous metals, non-metallic mineral products",EUR,shock 1.2,668634157520.8694
 RoW,"Non-ferrous metals, non-metallic mineral products",EUR,shock 2,668634157519.7422
 RoW,"Non-ferrous metals, non-metallic mineral products",EUR,shock 3.1,668634157519.7422
 RoW,"Non-ferrous metals, non-metallic mineral products",EUR,shock 3.2,668634157519.1975
 RoW,Other mining and quarrying products,EUR,baseline,488992433141.76746
-RoW,Other mining and quarrying products,EUR,shock 0,488992433141.7676
 RoW,Other mining and quarrying products,EUR,shock 1.1,488992433142.5657
 RoW,Other mining and quarrying products,EUR,shock 1.2,488992433142.56537
 RoW,Other mining and quarrying products,EUR,shock 2,488992433141.7676
 RoW,Other mining and quarrying products,EUR,shock 3.1,488992433141.7676
 RoW,Other mining and quarrying products,EUR,shock 3.2,488992433141.29767
 RoW,"Agriculture, forestry, animal raising and fisheries products",EUR,baseline,2037801994734.5898
-RoW,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 0,2037801994734.5894
 RoW,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 1.1,2037801994735.227
 RoW,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 1.2,2037801994735.227
 RoW,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 2,2037801994734.5894
 RoW,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 3.1,2037801994734.5894
 RoW,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 3.2,2037801994734.0405
 RoW,Fossils and refined fossil products,EUR,baseline,2733110813396.412
-RoW,Fossils and refined fossil products,EUR,shock 0,2733110813396.4116
 RoW,Fossils and refined fossil products,EUR,shock 1.1,2733110813429.3916
 RoW,Fossils and refined fossil products,EUR,shock 1.2,2733110813429.39
 RoW,Fossils and refined fossil products,EUR,shock 2,2733110813396.4116
 RoW,Fossils and refined fossil products,EUR,shock 3.1,2733110813396.4116
 RoW,Fossils and refined fossil products,EUR,shock 3.2,2733110813325.0366
 RoW,Iron and steel products,EUR,baseline,1451955737554.3362
-RoW,Iron and steel products,EUR,shock 0,1451955737554.3362
 RoW,Iron and steel products,EUR,shock 1.1,1451955737556.0803
 RoW,Iron and steel products,EUR,shock 1.2,1451955737556.0796
 RoW,Iron and steel products,EUR,shock 2,1451955737554.3362
 RoW,Iron and steel products,EUR,shock 3.1,1451955737554.3362
 RoW,Iron and steel products,EUR,shock 3.2,1451955737552.5688
 RoW,Food products,EUR,baseline,2027735941679.7285
-RoW,Food products,EUR,shock 0,2027735941679.7285
 RoW,Food products,EUR,shock 1.1,2027735941680.0518
 RoW,Food products,EUR,shock 1.2,2027735941680.0513
 RoW,Food products,EUR,shock 2,2027735941679.7285
 RoW,Food products,EUR,shock 3.1,2027735941679.7285
 RoW,Food products,EUR,shock 3.2,2027735941679.4941
 RoW,Other manufacturing products,EUR,baseline,6337738929239.307
-RoW,Other manufacturing products,EUR,shock 0,6337738929239.307
 RoW,Other manufacturing products,EUR,shock 1.1,6337738929243.092
 RoW,Other manufacturing products,EUR,shock 1.2,6337738929243.09
 RoW,Other manufacturing products,EUR,shock 2,6337738929239.307
 RoW,Other manufacturing products,EUR,shock 3.1,6337738929239.307
 RoW,Other manufacturing products,EUR,shock 3.2,6337738929236.314
 RoW,Cement and related products,EUR,baseline,110801706116.38081
-RoW,Cement and related products,EUR,shock 0,110801706116.38092
 RoW,Cement and related products,EUR,shock 1.1,110801706116.42207
 RoW,Cement and related products,EUR,shock 1.2,110801706116.42204
 RoW,Cement and related products,EUR,shock 2,110801706116.38092
 RoW,Cement and related products,EUR,shock 3.1,110801706116.38092
 RoW,Cement and related products,EUR,shock 3.2,110801706116.32901
 RoW,Other services,EUR,baseline,19884307612457.336
-RoW,Other services,EUR,shock 0,19884307612457.336
 RoW,Other services,EUR,shock 1.1,19884307612468.316
 RoW,Other services,EUR,shock 1.2,19884307612468.312
 RoW,Other services,EUR,shock 2,19884307612457.336
 RoW,Other services,EUR,shock 3.1,19884307612457.336
 RoW,Other services,EUR,shock 3.2,19884307612446.113
 RoW,Construction,EUR,baseline,3536808249063.5146
-RoW,Construction,EUR,shock 0,3536808249063.5146
 RoW,Construction,EUR,shock 1.1,3536808249064.001
 RoW,Construction,EUR,shock 1.2,3536808249064.001
 RoW,Construction,EUR,shock 2,3536808249063.5146
 RoW,Construction,EUR,shock 3.1,3536808249063.5146
 RoW,Construction,EUR,shock 3.2,3536808249062.7417
 RoW,DFIG generators,EUR,baseline,0.0
-RoW,DFIG generators,EUR,shock 0,0.0
 RoW,DFIG generators,EUR,shock 1.1,0.0
 RoW,DFIG generators,EUR,shock 1.2,0.0
 RoW,DFIG generators,EUR,shock 2,0.0
 RoW,DFIG generators,EUR,shock 3.1,0.0
 RoW,DFIG generators,EUR,shock 3.2,0.0
 RoW,Dysprosium,EUR,baseline,0.0
-RoW,Dysprosium,EUR,shock 0,0.0
 RoW,Dysprosium,EUR,shock 1.1,0.0
 RoW,Dysprosium,EUR,shock 1.2,0.0
 RoW,Dysprosium,EUR,shock 2,0.0
 RoW,Dysprosium,EUR,shock 3.1,0.0
 RoW,Dysprosium,EUR,shock 3.2,0.0
 RoW,Electrical machinery and apparatus,EUR,baseline,586213026581.5165
-RoW,Electrical machinery and apparatus,EUR,shock 0,586213026581.5166
 RoW,Electrical machinery and apparatus,EUR,shock 1.1,586213026582.7678
 RoW,Electrical machinery and apparatus,EUR,shock 1.2,586213026582.7678
 RoW,Electrical machinery and apparatus,EUR,shock 2,586213026581.5166
 RoW,Electrical machinery and apparatus,EUR,shock 3.1,586213026581.5166
 RoW,Electrical machinery and apparatus,EUR,shock 3.2,586213026581.0531
 RoW,Other Renewable Electricity,EUR,baseline,103067094112.9799
-RoW,Other Renewable Electricity,EUR,shock 0,103067094112.9799
 RoW,Other Renewable Electricity,EUR,shock 1.1,103067094113.15538
 RoW,Other Renewable Electricity,EUR,shock 1.2,103067094113.15535
 RoW,Other Renewable Electricity,EUR,shock 2,103067094112.9799
 RoW,Other Renewable Electricity,EUR,shock 3.1,103067094112.9799
 RoW,Other Renewable Electricity,EUR,shock 3.2,103067094112.70976
 RoW,Non-Renewable Electricity,EUR,baseline,424255336195.7756
-RoW,Non-Renewable Electricity,EUR,shock 0,424255336195.7756
 RoW,Non-Renewable Electricity,EUR,shock 1.1,424255336196.37946
 RoW,Non-Renewable Electricity,EUR,shock 1.2,424255336196.3794
 RoW,Non-Renewable Electricity,EUR,shock 2,424255336195.7756
 RoW,Non-Renewable Electricity,EUR,shock 3.1,424255336195.7756
 RoW,Non-Renewable Electricity,EUR,shock 3.2,424255336194.8739
 RoW,Electricity by solar photovoltaic,EUR,baseline,456545606.36756486
-RoW,Electricity by solar photovoltaic,EUR,shock 0,456545606.3675636
 RoW,Electricity by solar photovoltaic,EUR,shock 1.1,456545606.36855435
 RoW,Electricity by solar photovoltaic,EUR,shock 1.2,456545606.36855257
 RoW,Electricity by solar photovoltaic,EUR,shock 2,456545606.3675636
 RoW,Electricity by solar photovoltaic,EUR,shock 3.1,456545606.3675636
 RoW,Electricity by solar photovoltaic,EUR,shock 3.2,456545606.36586905
 RoW,Electricity by wind,EUR,baseline,2322440867.7250457
-RoW,Electricity by wind,EUR,shock 0,2322440867.725044
 RoW,Electricity by wind,EUR,shock 1.1,2322440867.728899
 RoW,Electricity by wind,EUR,shock 1.2,2322440867.728896
 RoW,Electricity by wind,EUR,shock 2,2322440867.725044
 RoW,Electricity by wind,EUR,shock 3.1,2322440867.725044
 RoW,Electricity by wind,EUR,shock 3.2,2322440867.7204514
 RoW,Mono-Si and poli-Si cells,EUR,baseline,-1.3834577822714708e-05
-RoW,Mono-Si and poli-Si cells,EUR,shock 0,-2.143038109918641e-05
 RoW,Mono-Si and poli-Si cells,EUR,shock 1.1,-1.1705385241753273e-05
 RoW,Mono-Si and poli-Si cells,EUR,shock 1.2,-2.1430381099187055e-05
 RoW,Mono-Si and poli-Si cells,EUR,shock 2,-2.143038109918641e-05
 RoW,Mono-Si and poli-Si cells,EUR,shock 3.1,-2.143038109918641e-05
 RoW,Mono-Si and poli-Si cells,EUR,shock 3.2,-2.1430381099180205e-05
 RoW,Neodymium,EUR,baseline,0.0
-RoW,Neodymium,EUR,shock 0,0.0
 RoW,Neodymium,EUR,shock 1.1,0.0
 RoW,Neodymium,EUR,shock 1.2,0.0
 RoW,Neodymium,EUR,shock 2,0.0
 RoW,Neodymium,EUR,shock 3.1,0.0
 RoW,Neodymium,EUR,shock 3.2,0.0
 RoW,Offshore wind plants,EUR,baseline,0.0
-RoW,Offshore wind plants,EUR,shock 0,0.0
 RoW,Offshore wind plants,EUR,shock 1.1,0.0
 RoW,Offshore wind plants,EUR,shock 1.2,0.0
 RoW,Offshore wind plants,EUR,shock 2,0.0
 RoW,Offshore wind plants,EUR,shock 3.1,0.0
 RoW,Offshore wind plants,EUR,shock 3.2,0.0
 RoW,Onshore wind plants,EUR,baseline,0.0
-RoW,Onshore wind plants,EUR,shock 0,0.0
 RoW,Onshore wind plants,EUR,shock 1.1,0.0
 RoW,Onshore wind plants,EUR,shock 1.2,0.0
 RoW,Onshore wind plants,EUR,shock 2,0.0
 RoW,Onshore wind plants,EUR,shock 3.1,0.0
 RoW,Onshore wind plants,EUR,shock 3.2,0.0
 RoW,PMG generators,EUR,baseline,0.0
-RoW,PMG generators,EUR,shock 0,0.0
 RoW,PMG generators,EUR,shock 1.1,0.0
 RoW,PMG generators,EUR,shock 1.2,0.0
 RoW,PMG generators,EUR,shock 2,0.0
 RoW,PMG generators,EUR,shock 3.1,0.0
 RoW,PMG generators,EUR,shock 3.2,0.0
 RoW,Photovoltaic modules,EUR,baseline,-5.660090676098868e-06
-RoW,Photovoltaic modules,EUR,shock 0,0.0
 RoW,Photovoltaic modules,EUR,shock 1.1,0.0
 RoW,Photovoltaic modules,EUR,shock 1.2,0.0
 RoW,Photovoltaic modules,EUR,shock 2,0.0
 RoW,Photovoltaic modules,EUR,shock 3.1,0.0
 RoW,Photovoltaic modules,EUR,shock 3.2,0.0
 RoW,Photovoltaic plants,EUR,baseline,0.0
-RoW,Photovoltaic plants,EUR,shock 0,0.0
 RoW,Photovoltaic plants,EUR,shock 1.1,0.0
 RoW,Photovoltaic plants,EUR,shock 1.2,0.0
 RoW,Photovoltaic plants,EUR,shock 2,0.0
 RoW,Photovoltaic plants,EUR,shock 3.1,0.0
 RoW,Photovoltaic plants,EUR,shock 3.2,0.0
 RoW,Raw silicon,EUR,baseline,-4.687001738201326e-06
-RoW,Raw silicon,EUR,shock 0,-6.882958796046744e-06
 RoW,Raw silicon,EUR,shock 1.1,-3.7595077725379375e-06
 RoW,Raw silicon,EUR,shock 1.2,-6.88295879604695e-06
 RoW,Raw silicon,EUR,shock 2,-6.882958796046744e-06
 RoW,Raw silicon,EUR,shock 3.1,-6.882958796046744e-06
 RoW,Raw silicon,EUR,shock 3.2,-6.8829587960447505e-06
 USA,Chemicals and petrochemicals products,EUR,baseline,676830084890.2244
-USA,Chemicals and petrochemicals products,EUR,shock 0,676830084890.2245
 USA,Chemicals and petrochemicals products,EUR,shock 1.1,676830084891.1431
 USA,Chemicals and petrochemicals products,EUR,shock 1.2,676830084891.143
 USA,Chemicals and petrochemicals products,EUR,shock 2,676830084890.2245
 USA,Chemicals and petrochemicals products,EUR,shock 3.1,676830084890.2245
 USA,Chemicals and petrochemicals products,EUR,shock 3.2,676830084889.3813
 USA,Transportation services,EUR,baseline,530273432630.55054
-USA,Transportation services,EUR,shock 0,530273432630.55054
 USA,Transportation services,EUR,shock 1.1,530273432630.8854
 USA,Transportation services,EUR,shock 1.2,530273432630.8854
 USA,Transportation services,EUR,shock 2,530273432630.55054
 USA,Transportation services,EUR,shock 3.1,530273432630.55054
 USA,Transportation services,EUR,shock 3.2,530273432630.4103
 USA,"Non-ferrous metals, non-metallic mineral products",EUR,baseline,133865018795.43695
-USA,"Non-ferrous metals, non-metallic mineral products",EUR,shock 0,133865018795.43698
 USA,"Non-ferrous metals, non-metallic mineral products",EUR,shock 1.1,133865018795.59293
 USA,"Non-ferrous metals, non-metallic mineral products",EUR,shock 1.2,133865018795.59293
 USA,"Non-ferrous metals, non-metallic mineral products",EUR,shock 2,133865018795.43698
 USA,"Non-ferrous metals, non-metallic mineral products",EUR,shock 3.1,133865018795.43698
 USA,"Non-ferrous metals, non-metallic mineral products",EUR,shock 3.2,133865018795.3794
 USA,Other mining and quarrying products,EUR,baseline,53746090118.92643
-USA,Other mining and quarrying products,EUR,shock 0,53746090118.92644
 USA,Other mining and quarrying products,EUR,shock 1.1,53746090118.95914
 USA,Other mining and quarrying products,EUR,shock 1.2,53746090118.959145
 USA,Other mining and quarrying products,EUR,shock 2,53746090118.92644
 USA,Other mining and quarrying products,EUR,shock 3.1,53746090118.92644
 USA,Other mining and quarrying products,EUR,shock 3.2,53746090118.90667
 USA,"Agriculture, forestry, animal raising and fisheries products",EUR,baseline,361820579368.45496
-USA,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 0,361820579368.45496
 USA,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 1.1,361820579368.50934
 USA,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 1.2,361820579368.5094
 USA,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 2,361820579368.45496
 USA,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 3.1,361820579368.45496
 USA,"Agriculture, forestry, animal raising and fisheries products",EUR,shock 3.2,361820579368.4121
 USA,Fossils and refined fossil products,EUR,baseline,553660962399.8806
-USA,Fossils and refined fossil products,EUR,shock 0,553660962399.8806
 USA,Fossils and refined fossil products,EUR,shock 1.1,553660962400.325
 USA,Fossils and refined fossil products,EUR,shock 1.2,553660962400.3248
 USA,Fossils and refined fossil products,EUR,shock 2,553660962399.8806
 USA,Fossils and refined fossil products,EUR,shock 3.1,553660962399.8806
 USA,Fossils and refined fossil products,EUR,shock 3.2,553660962397.139
 USA,Iron and steel products,EUR,baseline,343688567419.4374
-USA,Iron and steel products,EUR,shock 0,343688567419.4374
 USA,Iron and steel products,EUR,shock 1.1,343688567419.5902
 USA,Iron and steel products,EUR,shock 1.2,343688567419.5902
 USA,Iron and steel products,EUR,shock 2,343688567419.4374
 USA,Iron and steel products,EUR,shock 3.1,343688567419.4374
 USA,Iron and steel products,EUR,shock 3.2,343688567419.31287
 USA,Food products,EUR,baseline,651872850551.8035
-USA,Food products,EUR,shock 0,651872850551.8035
 USA,Food products,EUR,shock 1.1,651872850551.8358
 USA,Food products,EUR,shock 1.2,651872850551.8358
 USA,Food products,EUR,shock 2,651872850551.8035
 USA,Food products,EUR,shock 3.1,651872850551.8035
 USA,Food products,EUR,shock 3.2,651872850551.7816
 USA,Other manufacturing products,EUR,baseline,2684077541616.4824
-USA,Other manufacturing products,EUR,shock 0,2684077541616.4824
 USA,Other manufacturing products,EUR,shock 1.1,2684077541617.2207
 USA,Other manufacturing products,EUR,shock 1.2,2684077541617.22
 USA,Other manufacturing products,EUR,shock 2,2684077541616.4824
 USA,Other manufacturing products,EUR,shock 3.1,2684077541616.4824
 USA,Other manufacturing products,EUR,shock 3.2,2684077541616.0557
 USA,Cement and related products,EUR,baseline,50092512642.622795
-USA,Cement and related products,EUR,shock 0,50092512642.6228
 USA,Cement and related products,EUR,shock 1.1,50092512642.62825
 USA,Cement and related products,EUR,shock 1.2,50092512642.628265
 USA,Cement and related products,EUR,shock 2,50092512642.6228
 USA,Cement and related products,EUR,shock 3.1,50092512642.6228
 USA,Cement and related products,EUR,shock 3.2,50092512642.61637
 USA,Other services,EUR,baseline,13386043843837.623
-USA,Other services,EUR,shock 0,13386043843837.623
 USA,Other services,EUR,shock 1.1,13386043843840.242
 USA,Other services,EUR,shock 1.2,13386043843840.242
 USA,Other services,EUR,shock 2,13386043843837.623
 USA,Other services,EUR,shock 3.1,13386043843837.623
 USA,Other services,EUR,shock 3.2,13386043843836.115
 USA,Construction,EUR,baseline,790841348935.798
-USA,Construction,EUR,shock 0,790841348935.798
 USA,Construction,EUR,shock 1.1,790841348935.813
 USA,Construction,EUR,shock 1.2,790841348935.813
 USA,Construction,EUR,shock 2,790841348935.798
 USA,Construction,EUR,shock 3.1,790841348935.798
 USA,Construction,EUR,shock 3.2,790841348935.7651
 USA,DFIG generators,EUR,baseline,0.0
-USA,DFIG generators,EUR,shock 0,0.0
 USA,DFIG generators,EUR,shock 1.1,0.0
 USA,DFIG generators,EUR,shock 1.2,0.0
 USA,DFIG generators,EUR,shock 2,0.0
 USA,DFIG generators,EUR,shock 3.1,0.0
 USA,DFIG generators,EUR,shock 3.2,0.0
 USA,Dysprosium,EUR,baseline,0.0
-USA,Dysprosium,EUR,shock 0,0.0
 USA,Dysprosium,EUR,shock 1.1,0.0
 USA,Dysprosium,EUR,shock 1.2,0.0
 USA,Dysprosium,EUR,shock 2,0.0
 USA,Dysprosium,EUR,shock 3.1,0.0
 USA,Dysprosium,EUR,shock 3.2,0.0
 USA,Electrical machinery and apparatus,EUR,baseline,104334938166.76694
-USA,Electrical machinery and apparatus,EUR,shock 0,104334938166.76697
 USA,Electrical machinery and apparatus,EUR,shock 1.1,104334938166.90567
 USA,Electrical machinery and apparatus,EUR,shock 1.2,104334938166.90564
 USA,Electrical machinery and apparatus,EUR,shock 2,104334938166.76697
 USA,Electrical machinery and apparatus,EUR,shock 3.1,104334938166.76697
 USA,Electrical machinery and apparatus,EUR,shock 3.2,104334938166.72873
 USA,Other Renewable Electricity,EUR,baseline,14448948510.186518
-USA,Other Renewable Electricity,EUR,shock 0,14448948510.186516
 USA,Other Renewable Electricity,EUR,shock 1.1,14448948510.189285
 USA,Other Renewable Electricity,EUR,shock 1.2,14448948510.189276
 USA,Other Renewable Electricity,EUR,shock 2,14448948510.186516
 USA,Other Renewable Electricity,EUR,shock 3.1,14448948510.186516
 USA,Other Renewable Electricity,EUR,shock 3.2,14448948510.18401
 USA,Non-Renewable Electricity,EUR,baseline,161973181639.29422
-USA,Non-Renewable Electricity,EUR,shock 0,161973181639.29422
 USA,Non-Renewable Electricity,EUR,shock 1.1,161973181639.32507
 USA,Non-Renewable Electricity,EUR,shock 1.2,161973181639.32507
 USA,Non-Renewable Electricity,EUR,shock 2,161973181639.29422
 USA,Non-Renewable Electricity,EUR,shock 3.1,161973181639.29422
 USA,Non-Renewable Electricity,EUR,shock 3.2,161973181639.248
 USA,Electricity by solar photovoltaic,EUR,baseline,98083465.65433665
-USA,Electricity by solar photovoltaic,EUR,shock 0,98083465.65433629
 USA,Electricity by solar photovoltaic,EUR,shock 1.1,98083465.65437771
 USA,Electricity by solar photovoltaic,EUR,shock 1.2,98083465.654377
 USA,Electricity by solar photovoltaic,EUR,shock 2,98083465.65433629
 USA,Electricity by solar photovoltaic,EUR,shock 3.1,98083465.65433629
 USA,Electricity by solar photovoltaic,EUR,shock 3.2,98083465.65428746
 USA,Electricity by wind,EUR,baseline,1819614238.4587486
-USA,Electricity by wind,EUR,shock 0,1819614238.4587479
 USA,Electricity by wind,EUR,shock 1.1,1819614238.4595022
 USA,Electricity by wind,EUR,shock 1.2,1819614238.4594998
 USA,Electricity by wind,EUR,shock 2,1819614238.4587479
 USA,Electricity by wind,EUR,shock 3.1,1819614238.4587479
 USA,Electricity by wind,EUR,shock 3.2,1819614238.4578187
 USA,Mono-Si and poli-Si cells,EUR,baseline,-7.1498828502978864e-06
-USA,Mono-Si and poli-Si cells,EUR,shock 0,-9.385568366071475e-06
 USA,Mono-Si and poli-Si cells,EUR,shock 1.1,-5.126446092078607e-06
 USA,Mono-Si and poli-Si cells,EUR,shock 1.2,-9.385568366071756e-06
 USA,Mono-Si and poli-Si cells,EUR,shock 2,-9.385568366071475e-06
 USA,Mono-Si and poli-Si cells,EUR,shock 3.1,-9.385568366071475e-06
 USA,Mono-Si and poli-Si cells,EUR,shock 3.2,-9.385568366068757e-06
 USA,Neodymium,EUR,baseline,0.0
-USA,Neodymium,EUR,shock 0,0.0
 USA,Neodymium,EUR,shock 1.1,0.0
 USA,Neodymium,EUR,shock 1.2,0.0
 USA,Neodymium,EUR,shock 2,0.0
 USA,Neodymium,EUR,shock 3.1,0.0
 USA,Neodymium,EUR,shock 3.2,0.0
 USA,Offshore wind plants,EUR,baseline,0.0
-USA,Offshore wind plants,EUR,shock 0,0.0
 USA,Offshore wind plants,EUR,shock 1.1,0.0
 USA,Offshore wind plants,EUR,shock 1.2,0.0
 USA,Offshore wind plants,EUR,shock 2,0.0
 USA,Offshore wind plants,EUR,shock 3.1,0.0
 USA,Offshore wind plants,EUR,shock 3.2,0.0
 USA,Onshore wind plants,EUR,baseline,0.0
-USA,Onshore wind plants,EUR,shock 0,0.0
 USA,Onshore wind plants,EUR,shock 1.1,0.0
 USA,Onshore wind plants,EUR,shock 1.2,0.0
 USA,Onshore wind plants,EUR,shock 2,0.0
 USA,Onshore wind plants,EUR,shock 3.1,0.0
 USA,Onshore wind plants,EUR,shock 3.2,0.0
 USA,PMG generators,EUR,baseline,0.0
-USA,PMG generators,EUR,shock 0,0.0
 USA,PMG generators,EUR,shock 1.1,0.0
 USA,PMG generators,EUR,shock 1.2,0.0
 USA,PMG generators,EUR,shock 2,0.0
 USA,PMG generators,EUR,shock 3.1,0.0
 USA,PMG generators,EUR,shock 3.2,0.0
 USA,Photovoltaic modules,EUR,baseline,-6.470114643340579e-06
-USA,Photovoltaic modules,EUR,shock 0,0.0
 USA,Photovoltaic modules,EUR,shock 1.1,0.0
 USA,Photovoltaic modules,EUR,shock 1.2,0.0
 USA,Photovoltaic modules,EUR,shock 2,0.0
 USA,Photovoltaic modules,EUR,shock 3.1,0.0
 USA,Photovoltaic modules,EUR,shock 3.2,0.0
 USA,Photovoltaic plants,EUR,baseline,0.0
-USA,Photovoltaic plants,EUR,shock 0,0.0
 USA,Photovoltaic plants,EUR,shock 1.1,0.0
 USA,Photovoltaic plants,EUR,shock 1.2,0.0
 USA,Photovoltaic plants,EUR,shock 2,0.0
 USA,Photovoltaic plants,EUR,shock 3.1,0.0
 USA,Photovoltaic plants,EUR,shock 3.2,0.0
 USA,Raw silicon,EUR,baseline,-2.9849152373646078e-05
-USA,Raw silicon,EUR,shock 0,-4.3862382529948426e-05
 USA,Raw silicon,EUR,shock 1.1,-2.3957860700558735e-05
 USA,Raw silicon,EUR,shock 1.2,-4.386238252994974e-05
 USA,Raw silicon,EUR,shock 2,-4.3862382529948426e-05
