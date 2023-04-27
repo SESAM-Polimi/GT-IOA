@@ -20,7 +20,7 @@ sN = slice(None)
 paths = 'Paths.xlsx'
 
 #%% Parse aggregated database from excel
-world = mario.parse_from_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\Aggregated_SUT.xlsx", table='SUT', mode="flows")
+world = mario.parse_from_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\a. Aggregated_SUT.xlsx", table='SUT', mode="coefficients")
 
 #%% Define new commodities
 new_sectors = {
@@ -34,19 +34,16 @@ new_sectors = {
         'Offshore wind plants',
         'PMG generators',
         'Neodymium',
-        'Dysprosium'
+        'Dysprosium',
         ],
     'activities': [
         'Production of photovoltaic plants',
         'Production of photovoltaic modules',
         'Production of mono-Si and poli-Si cells',
-        'Extraction of raw silicon',
         'Production of onshore wind plants',
         'Production of DFIG generators',
         'Production of offshore wind plants',
-        'Production of PMG generators',
-        'Extraction of neodymium',
-        'Extraction of dysprosium'
+        'Production of PMG generators'
         ]
     }
 
@@ -61,4 +58,4 @@ world.add_sectors(io=path_commodities, new_sectors= new_sectors['commodities'], 
 world.add_sectors(io=path_activities,  new_sectors= new_sectors['activities'],  regions= world.get_index('Region'), item= 'Activity',  inplace=True)
 
 #%% Aggregated database with new sectors to excel
-world.to_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\Aggregated & new sectors SUT.xlsx")
+world.to_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\b. Aggregated & new sectors SUT.xlsx", flows=False, coefficients=True)

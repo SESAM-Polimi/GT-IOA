@@ -19,7 +19,7 @@ sN = slice(None)
 
 paths = 'Paths.xlsx'
 
-#%% parse raw Exiobase
+#%% Parsing raw Exiobase
 exio_sut_path  = pd.read_excel(paths, index_col=[0]).loc['EXIOBASE SUT',user]
 exio_iot_path  = pd.read_excel(paths, index_col=[0]).loc['EXIOBASE IOT',user]
 
@@ -34,11 +34,7 @@ new_sat_SUT = pd.DataFrame(0, index=sat_IOT.index, columns=sat_SUT.columns)
 new_sat_SUT.loc[:,(slice(None),'Activity')] = sat_IOT.values
 new_units = exio_iot.units['Satellite account'][9:]
 
-exio_sut.add_extensions(io= new_sat_SUT, 
-                        matrix= 'E',
-                        units= new_units,
-                        inplace=True, # implementing the changes on the database
-                        )
+exio_sut.add_extensions(io= new_sat_SUT, matrix= 'E', units= new_units, inplace=True)
     
 #%% Getting excel templates to aggregate raw Exiobase
 path_aggr  = r"Aggregations\Aggregation_baseline.xlsx"
@@ -48,4 +44,4 @@ path_aggr  = r"Aggregations\Aggregation_baseline.xlsx"
 exio_sut.aggregate(path_aggr, levels="Region")
 
 #%% Aggregated database to excel
-exio_sut.to_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\Aggregated_SUT.xlsx")
+exio_sut.to_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\a. Aggregated_SUT.xlsx", flows=False, coefficients=True)
