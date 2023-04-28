@@ -211,11 +211,10 @@ for sa in to_plot.keys():
     fig_ene_by_reg.for_each_xaxis(lambda axis: axis.update(title=None))
     fig_ene_by_act.for_each_xaxis(lambda axis: axis.update(title=None))
 
-
-    fig_cap_by_reg.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{sa} - Cap,reg.html", auto_open=auto)
-    fig_cap_by_act.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{sa} - Cap,act.html", auto_open=auto)
-    fig_ene_by_reg.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{sa} - Ene,reg.html", auto_open=auto)
-    fig_ene_by_act.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{sa} - Ene,act.html", auto_open=auto)
+    fig_cap_by_reg.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{to_plot[sa]} - Cap,reg.html", auto_open=auto)
+    fig_cap_by_act.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{to_plot[sa]} - Cap,act.html", auto_open=auto)
+    fig_ene_by_reg.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{to_plot[sa]} - Ene,reg.html", auto_open=auto)
+    fig_ene_by_act.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{to_plot[sa]} - Ene,act.html", auto_open=auto)
 
 
 
