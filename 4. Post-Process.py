@@ -35,17 +35,22 @@ units = {
             },
         'CO2 - combustion - air': {
             "raw": 'kg',
-            "new": 'tonnes',
+            "new": 'ton',
             "conv": 1/1000,
             }, 
         'CH4 - combustion - air': {
             "raw": 'kg',
-            "new": 'tonnes',
+            "new": 'ton',
             "conv": 1/1000,
             }, 
         'N2O - combustion - air': {
             "raw": 'kg',
-            "new": 'tonnes',
+            "new": 'ton',
+            "conv": 1/1000,
+            }, 
+        'GHGs': {
+            "raw": 'kg',
+            "new": 'tonCO2eq',
             "conv": 1/1000,
             }, 
         },
@@ -148,7 +153,7 @@ for sa,gwp in GWP.items():
 f['GHGs'] = f['GHGs'].groupby(level=["Region from","Activity from","Region to","Activity to","Scenario"]).sum()
 for i in f['GHGs'].index:
     f['GHGs'].loc[i,"Account"] = "GHG emmissions"
-    f['GHGs'].loc[i,"Unit"] = f"{units['Satellite account'][sa]['new']}/{units['Activity'][i[3]]['new']}"
+    f['GHGs'].loc[i,"Unit"] = f"{units['Satellite account']['GHGs']['new']}/{units['Activity'][i[3]]['new']}"
 f['GHGs'].set_index(['Account','Unit'], append=True, inplace=True)
         
 #%% Aggregating
@@ -175,15 +180,13 @@ font = "HelveticaNeue Light"
 size = 15
 
 for sa in to_plot.keys():
-    # footprint_by_reg = f[sa].groupby(level=["Region from","Activity to", "Scenario"]).sum()
-    # footprint_by_act = f[sa].groupby(level=["Activity from","Activity to", "Scenario"]).sum()
     footprint_by_reg = f[sa].groupby(level=["Region from","Activity to", "Scenario","Unit"]).sum()
     footprint_by_act = f[sa].groupby(level=["Activity from","Activity to", "Scenario","Unit"]).sum()
     
-    capacity_footprint_by_reg = footprint_by_reg.loc[(sN,capacity_figure,'Endogenous capital',sN),:]
-    capacity_footprint_by_act = footprint_by_act.loc[(sN,capacity_figure,'Endogenous capital',sN),:]    
-    energy_footprint_by_reg = footprint_by_reg.loc[(sN,energy_figure,sN,sN),:].sort_values(['Scenario'], ascending=[True])
-    energy_footprint_by_act = footprint_by_act.loc[(sN,energy_figure,sN,sN),:].sort_values(['Scenario'], ascending=[True])
+    capacity_footprint_by_reg = footprint_by_reg.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Region from','Scenario'], ascending=[True,True])
+    capacity_footprint_by_act = footprint_by_act.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Activity from','Scenario'], ascending=[True,True])  
+    energy_footprint_by_reg = footprint_by_reg.loc[(sN,energy_figure,sN,sN),:].sort_values(['Region from','Scenario'], ascending=[True,True])
+    energy_footprint_by_act = footprint_by_act.loc[(sN,energy_figure,sN,sN),:].sort_values(['Activity from', 'Scenario'], ascending=[True,True])
     
     capacity_footprint_by_reg.reset_index(inplace=True)
     capacity_footprint_by_act.reset_index(inplace=True)
