@@ -30,7 +30,7 @@ paths = 'Paths.xlsx'
 # world.shock_calc(f"{pd.read_excel(paths, index_col=[0]).loc['Shocks',user]}\\Baseline - Carbon emissions fix.xlsx", v=True, e=True, z=True, scenario="shock 0")
 
 # %% Baseline database to excel
-# world.to_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\c. Baseline.xlsx", flows=False, coefficients=True)
+# world.to_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\c. Baseline.xlsx", flows=False, coefficients=True, scenario="shock 0")
 
 #%% Parse baseline from excel
 world = mario.parse_from_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\c. Baseline.xlsx", table='SUT', mode="coefficients")

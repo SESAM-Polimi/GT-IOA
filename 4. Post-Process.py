@@ -100,15 +100,15 @@ activities_to = [
     "Electricity by PV",
     ]
 
-not_activities_from = [
-    "DFIG generators",
-    "PMG generators",
-    "Offshore wind plants",
-    "Onshore wind plants",
-    "PV plants",
-    'Electricity by wind',
-    "Electricity by PV",
-    ]
+# not_activities_from = [
+#     "DFIG generators",
+#     "PMG generators",
+#     "Offshore wind plants",
+#     "Onshore wind plants",
+#     "PV plants",
+#     'Electricity by wind',
+#     "Electricity by PV",
+#     ]
 
 capacity_figure = ["Offshore wind plants","Onshore wind plants","PV plants"]
 energy_figure = ["Electricity by wind","Electricity by PV"]
@@ -118,19 +118,19 @@ f = {}
 for sa in sat_accounts:
     f[sa] = pd.DataFrame()
     for scen in scenarios:
-        f_sa_scen = pd.read_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Results',user]}\\{sa}.xlsx", sheet_name=scen, index_col=[0,1,2], header=[0,1,2]).loc[(sN,"Activity",sN),(sN,"Activity",sN)]
+        f_sa_scen = pd.read_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Results',user]}\\{sa}.xlsx", sheet_name=scen, index_col=[0,1,2], header=[0,1,2]).loc[(sN,"Activity",sN),(sN,"Commodity",sN)]
         f_sa_scen = f_sa_scen.stack(level=[0,1,2])
         f_sa_scen = f_sa_scen.to_frame()
         f_sa_scen.columns = ['Value']
         f_sa_scen["Account"] = sa
         f_sa_scen["Scenario"] = scen
         f_sa_scen = f_sa_scen.droplevel(level=[1,4], axis=0)
-        activities_from = []
-        for act in set(f_sa_scen.index.get_level_values(1)):
-            if act not in not_activities_from:
-                activities_from += [act]
+        # activities_from = []
+        # for act in set(f_sa_scen.index.get_level_values(1)):
+        #     if act not in not_activities_from:
+        #         activities_from += [act]
         f_sa_scen.index.names = ["Region from", "Activity from", "Region to", "Activity to"]
-        f_sa_scen = f_sa_scen.loc[(sN,activities_from,regions_to,activities_to),:]
+        f_sa_scen = f_sa_scen.loc[(sN,sN,regions_to,activities_to),:]
         f_sa_scen.reset_index(inplace=True)
         f[sa] = pd.concat([f[sa], f_sa_scen], axis=0)
     f[sa].replace("baseline", "Baseline", inplace=True)
@@ -185,8 +185,8 @@ for sa in to_plot.keys():
     
     capacity_footprint_by_reg = footprint_by_reg.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
     capacity_footprint_by_act = footprint_by_act.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Activity from','Scenario'], ascending=[False,True])  
-    energy_footprint_by_reg = footprint_by_reg.loc[(sN,energy_figure,sN,sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
-    energy_footprint_by_act = footprint_by_act.loc[(sN,energy_figure,sN,sN),:].sort_values(['Activity from', 'Scenario'], ascending=[False,True])
+    energy_footprint_by_reg = footprint_by_reg.loc[(sN,energy_figure,['Baseline','Endogenous capital'],sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
+    energy_footprint_by_act = footprint_by_act.loc[(sN,energy_figure,['Baseline','Endogenous capital'],sN),:].sort_values(['Activity from', 'Scenario'], ascending=[False,True])
     
     capacity_footprint_by_reg.reset_index(inplace=True)
     capacity_footprint_by_act.reset_index(inplace=True)
