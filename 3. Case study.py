@@ -84,9 +84,7 @@ for a in sat_accounts:
         
     f[a]['delta'] = f[a]['Endogenization of capital'] - f[a]['baseline']
     for k,v in f[a].items():
-        df_to_export = v.loc[(slice(None),"Commodity",slice(None)),(slice(None),'Commodity',commodities)]
-        df_to_export.columns = pd.MultiIndex.from_tuples(df_to_export.columns) 
-        df_to_export.to_excel(writer, sheet_name=k)
+        v.to_excel(writer, sheet_name=k)
     writer.close()
 
 #%% Endogenization of capital database to excel
