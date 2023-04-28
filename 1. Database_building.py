@@ -38,10 +38,10 @@ exio_sut.add_extensions(io= new_sat_SUT, matrix= 'E', units= new_units, inplace=
     
 #%% Getting excel templates to aggregate raw Exiobase
 path_aggr  = r"Aggregations\Aggregation_baseline.xlsx"
-# exio_sut.get_aggregation_excel(path_aggr)
+exio_sut.get_aggregation_excel(path_aggr)
 
 #%% Aggregating exiobase as other models
-exio_sut.aggregate(path_aggr, levels="Region")
+exio_sut.aggregate(path_aggr, levels=["Region","Satellite account"])
 
 #%% Aggregated database to excel
 exio_sut.to_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\a. Aggregated_SUT.xlsx", flows=False, coefficients=True)

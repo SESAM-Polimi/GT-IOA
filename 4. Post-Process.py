@@ -31,7 +31,7 @@ units = {
         'Energy Carrier Supply - Total': {
             "raw": 'TJ',
             "new": 'GWh',
-            "conv": 3600,
+            "conv": 1/3.6,
             },
         'CO2 - combustion - air': {
             "raw": 'kg',
@@ -183,10 +183,10 @@ for sa in to_plot.keys():
     footprint_by_reg = f[sa].groupby(level=["Region from","Activity to", "Scenario","Unit"]).sum()
     footprint_by_act = f[sa].groupby(level=["Activity from","Activity to", "Scenario","Unit"]).sum()
     
-    capacity_footprint_by_reg = footprint_by_reg.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Region from','Scenario'], ascending=[True,True])
-    capacity_footprint_by_act = footprint_by_act.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Activity from','Scenario'], ascending=[True,True])  
-    energy_footprint_by_reg = footprint_by_reg.loc[(sN,energy_figure,sN,sN),:].sort_values(['Region from','Scenario'], ascending=[True,True])
-    energy_footprint_by_act = footprint_by_act.loc[(sN,energy_figure,sN,sN),:].sort_values(['Activity from', 'Scenario'], ascending=[True,True])
+    capacity_footprint_by_reg = footprint_by_reg.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
+    capacity_footprint_by_act = footprint_by_act.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Activity from','Scenario'], ascending=[False,True])  
+    energy_footprint_by_reg = footprint_by_reg.loc[(sN,energy_figure,sN,sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
+    energy_footprint_by_act = footprint_by_act.loc[(sN,energy_figure,sN,sN),:].sort_values(['Activity from', 'Scenario'], ascending=[False,True])
     
     capacity_footprint_by_reg.reset_index(inplace=True)
     capacity_footprint_by_act.reset_index(inplace=True)
@@ -198,10 +198,10 @@ for sa in to_plot.keys():
     fig_ene_by_reg = px.bar(energy_footprint_by_reg, x="Activity to", y="Value", color="Region from", facet_col="Scenario", color_discrete_sequence=colors, title=f"{to_plot[sa]} footprint per unit of electricity produced, allocated by region", template=template)
     fig_ene_by_act = px.bar(energy_footprint_by_act, x="Activity to", y="Value", color="Activity from", facet_col="Scenario", color_discrete_sequence=colors, title=f"{to_plot[sa]} footprint per unit of electricity produced, allocated by sector", template=template)
 
-    fig_cap_by_reg.update_layout(legend=dict(title=None), xaxis=dict(title=None), yaxis=dict(title=f"{list(set(capacity_footprint_by_reg['Unit']))[0]}"), font_family=font, font_size=size)    
-    fig_cap_by_act.update_layout(legend=dict(title=None), xaxis=dict(title=None), yaxis=dict(title=f"{list(set(capacity_footprint_by_act['Unit']))[0]}"), font_family=font, font_size=size)    
-    fig_ene_by_reg.update_layout(legend=dict(title=None), yaxis=dict(title=f"{list(set(energy_footprint_by_reg['Unit']))[0]}"), font_family=font, font_size=size)    
-    fig_ene_by_act.update_layout(legend=dict(title=None), yaxis=dict(title=f"{list(set(energy_footprint_by_act['Unit']))[0]}"), font_family=font, font_size=size)    
+    fig_cap_by_reg.update_layout(legend=dict(title=None, traceorder='reversed'), xaxis=dict(title=None), yaxis=dict(title=f"{list(set(capacity_footprint_by_reg['Unit']))[0]}"), font_family=font, font_size=size)    
+    fig_cap_by_act.update_layout(legend=dict(title=None, traceorder='reversed'), xaxis=dict(title=None), yaxis=dict(title=f"{list(set(capacity_footprint_by_act['Unit']))[0]}"), font_family=font, font_size=size)    
+    fig_ene_by_reg.update_layout(legend=dict(title=None, traceorder='reversed'), yaxis=dict(title=f"{list(set(energy_footprint_by_reg['Unit']))[0]}"), font_family=font, font_size=size)    
+    fig_ene_by_act.update_layout(legend=dict(title=None, traceorder='reversed'), yaxis=dict(title=f"{list(set(energy_footprint_by_act['Unit']))[0]}"), font_family=font, font_size=size)    
 
     fig_cap_by_reg.for_each_annotation(lambda a: a.update(text=a.text.split("=")[1]))
     fig_cap_by_act.for_each_annotation(lambda a: a.update(text=a.text.split("=")[1]))
