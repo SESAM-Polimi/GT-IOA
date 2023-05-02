@@ -35,12 +35,6 @@ paths = 'Paths.xlsx'
 #%% Parse baseline from excel
 world = mario.parse_from_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\c. Baseline.xlsx", table='SUT', mode="coefficients")
 
-#%% Linkages for baseline
-world_iot = world.to_iot(method='B', inplace=False)
-linkages = {
-    'Baseline': world_iot.calc_linkages(multi_mode=False),
-    }
-
 #%% Implementing endogenization of capital
 world.shock_calc(f"{pd.read_excel(paths, index_col=[0]).loc['Shocks',user]}\\Shock - Endogenization of capital.xlsx", z=True, v=True, scenario="Endogenization of capital")
 
@@ -88,20 +82,7 @@ for a in sat_accounts:
     writer.close()
 
 #%% Endogenization of capital database to excel
-world.to_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\d. Shock - Endogenization of capital.xlsx", flows=False, coefficients=True)
-
-#%% Parse endogenization of capital from excel
-world = mario.parse_from_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\d. Shock - Endogenization of capital.xlsx", table='SUT', mode="coefficients")
-
-#%% Linkages for shock
-world_iot = world.to_iot(method='B', inplace=False)
-linkages['Endogenization of capital'] = world_iot.calc_linkages(multi_mode=False)
-
-#%%
-writer = pd.ExcelWriter(f"{pd.read_excel(paths, index_col=[0]).loc['Results',user]}\\Linkages.xlsx", engine='openpyxl', mode='w')
-for kind,link in linkages.items():   
-    link.to_excel(writer, sheet_name=kind, merge_cells=False)
-writer.close()
+world.to_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\d. Shock - Endogenization of capital.xlsx", flows=False, coefficients=True, scenario="Endogenization of capital")
 
 
 
