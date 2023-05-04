@@ -54,6 +54,7 @@ commodities = [
 # for s in world_iot.scenarios:
 #     linkages[s] = world_iot.calc_linkages(
 #         scenario=s,
+#         normalized=False,
 #         multi_mode=False,
 #         )
 #     columns = pd.MultiIndex.from_arrays([

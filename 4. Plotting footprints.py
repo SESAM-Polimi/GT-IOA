@@ -178,9 +178,9 @@ for sa in to_plot.keys():
     capacity_footprint_by_reg = footprint_by_reg.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
     capacity_footprint_by_act = footprint_by_act.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Activity from','Scenario'], ascending=[False,True])  
     capacity_footprint_by_reg_act = footprint_by_reg_act.loc[(sN,sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Region from','Activity from','Scenario'], ascending=[False,False,True])  
-    energy_footprint_by_reg = footprint_by_reg.loc[(sN,energy_figure,['Baseline','Endogenous capital'],sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
-    energy_footprint_by_act = footprint_by_act.loc[(sN,energy_figure,['Baseline','Endogenous capital'],sN),:].sort_values(['Activity from', 'Scenario'], ascending=[False,True])
-    energy_footprint_by_reg_act = footprint_by_reg_act.loc[(sN,sN,energy_figure,['Baseline','Endogenous capital'],sN),:].sort_values(['Region from','Activity from','Scenario'], ascending=[False,False,True])  
+    energy_footprint_by_reg = footprint_by_reg.loc[(sN,energy_figure,['Baseline','Endogenous capital', 'Variation'],sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
+    energy_footprint_by_act = footprint_by_act.loc[(sN,energy_figure,['Baseline','Endogenous capital', 'Variation'],sN),:].sort_values(['Activity from', 'Scenario'], ascending=[False,True])
+    energy_footprint_by_reg_act = footprint_by_reg_act.loc[(sN,sN,energy_figure,['Baseline','Endogenous capital', 'Variation'],sN),:].sort_values(['Region from','Activity from','Scenario'], ascending=[False,False,True])  
     
     capacity_footprint_by_reg.reset_index(inplace=True)
     capacity_footprint_by_act.reset_index(inplace=True)
