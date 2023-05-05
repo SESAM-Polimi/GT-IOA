@@ -267,7 +267,7 @@ for plot,properties in to_plot.items():
                     # facet_row=properties['facet_row'],
                     # animation_frame=properties['animation_frame'],
                     color_discrete_sequence=colors,
-                    title=f"{name['name']} footprint per unit of {properties['title']} in EU27+UK, allocated by region and commodity [{list(set(plot_df['Unit']))[0]}]",
+                    title=f"{name['name']} footprint per unit of {properties['title']} of {act} in EU27+UK, allocated by region and commodity [{list(set(plot_df['Unit']))[0]}]",
                     template=template, 
                     hover_data=labels,
                     )
@@ -281,7 +281,7 @@ for plot,properties in to_plot.items():
                     facet_row=properties['facet_row'],
                     animation_frame=properties['animation_frame'],
                     color_discrete_sequence=colors,
-                    title=f"{name['name']} footprint per unit of {properties['title']} in EU27+UK, allocated by region and commodity [{list(set(plot_df['Unit']))[0]}]",
+                    title=f"{name['name']} footprint per unit of {act} in EU27+UK, allocated by region and commodity [{list(set(plot_df['Unit']))[0]}]",
                     template=template, 
                     hover_data=labels,
                     )
