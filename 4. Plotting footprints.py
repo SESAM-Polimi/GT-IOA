@@ -19,6 +19,15 @@ sN = slice(None)
 
 paths = 'Paths.xlsx'
 
+ee_prices_logic = 'IEA'
+year = 2019
+
+#%%
+ee_prices = {
+    'constant': 0.217e6,
+    'IEA': f"{pd.read_excel(paths, index_col=[0]).loc['Electricity',user]}", 
+    }
+
 sat_accounts = [
     'Energy Carrier Supply - Total', 
     'CO2 - combustion - air', 
@@ -73,12 +82,12 @@ units = {
         "Electricity by wind": {
             "raw": 'EUR',
             "new": 'GWh',
-            "conv": 0.217e6,
+            "conv": ee_prices_logic,
             }, 
         "Electricity by PV": {
             "raw": 'EUR',
             "new": 'GWh',
-            "conv": 0.217e6,
+            "conv": ee_prices_logic,
             }, 
         },
     }
@@ -129,7 +138,14 @@ for sa in sat_accounts:
 for sa,footprint in f.items():
     for i in footprint.index:
         footprint.loc[i,"Unit"] = f"{units['Satellite account'][sa]['new']}/{units['Activity'][i[3]]['new']}"
-        footprint.loc[i,"Value"] *= units['Satellite account'][sa]['conv']*units['Activity'][i[3]]['conv']
+        if units['Activity'][i[3]]['conv'] == ee_prices_logic:
+            if ee_prices_logic == 'constant':        
+                footprint.loc[i,"Value"] *= units['Satellite account'][sa]['conv']*ee_prices[ee_prices_logic]
+            elif ee_prices_logic == 'IEA':
+                ee_prices_data = pd.read_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Electricity',user]}", sheet_name=f"{ee_prices_logic}_Electricity prices", index_col=[0])
+                footprint.loc[i,"Value"] *= units['Satellite account'][sa]['conv']*ee_prices_data.loc[i[0],year]*1e6          
+        else:
+            footprint.loc[i,"Value"] *= units['Satellite account'][sa]['conv']*units['Activity'][i[3]]['conv']
     footprint.set_index(['Unit'], append=True, inplace=True)
 
 #%% Calculation of total GHG emissions
@@ -178,9 +194,9 @@ for sa in to_plot.keys():
     capacity_footprint_by_reg = footprint_by_reg.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
     capacity_footprint_by_act = footprint_by_act.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Activity from','Scenario'], ascending=[False,True])  
     capacity_footprint_by_reg_act = footprint_by_reg_act.loc[(sN,sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Region from','Activity from','Scenario'], ascending=[False,False,True])  
-    energy_footprint_by_reg = footprint_by_reg.loc[(sN,energy_figure,['Baseline','Endogenous capital', 'Variation'],sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
-    energy_footprint_by_act = footprint_by_act.loc[(sN,energy_figure,['Baseline','Endogenous capital', 'Variation'],sN),:].sort_values(['Activity from', 'Scenario'], ascending=[False,True])
-    energy_footprint_by_reg_act = footprint_by_reg_act.loc[(sN,sN,energy_figure,['Baseline','Endogenous capital', 'Variation'],sN),:].sort_values(['Region from','Activity from','Scenario'], ascending=[False,False,True])  
+    energy_footprint_by_reg = footprint_by_reg.loc[(sN,energy_figure,['Baseline','Endogenous capital'],sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
+    energy_footprint_by_act = footprint_by_act.loc[(sN,energy_figure,['Baseline','Endogenous capital'],sN),:].sort_values(['Activity from', 'Scenario'], ascending=[False,True])
+    energy_footprint_by_reg_act = footprint_by_reg_act.loc[(sN,sN,energy_figure,['Baseline','Endogenous capital'],sN),:].sort_values(['Region from','Activity from','Scenario'], ascending=[False,False,True])  
     
     capacity_footprint_by_reg.reset_index(inplace=True)
     capacity_footprint_by_act.reset_index(inplace=True)

@@ -16,32 +16,43 @@ import pandas as pd
 
 user = "LR"
 sN = slice(None)
+years = range(2011,2020)
 
 paths = 'Paths.xlsx'
 
 #%% Parsing raw Exiobase
-exio_sut_path  = pd.read_excel(paths, index_col=[0]).loc['EXIOBASE SUT',user]
-exio_iot_path  = pd.read_excel(paths, index_col=[0]).loc['EXIOBASE IOT',user]
+exio_sut = {}
+exio_iot = {}
 
-exio_sut  = mario.parse_exiobase_msut(exio_sut_path)
-exio_iot = mario.parse_exiobase_miot(exio_iot_path)
+for year in years:
+    exio_sut_path  = pd.read_excel(paths, index_col=[0]).loc['EXIOBASE SUT',user]+f"/MRSUT_{year}.zip"
+    exio_iot_path  = pd.read_excel(paths, index_col=[0]).loc['EXIOBASE IOT',user]+f"/IOT_{year}_ixi.zip"
 
-#%% Adding environmental extensions from miot to msut
-sat_IOT = exio_iot.E
-sat_SUT = exio_sut.E
+    exio_sut[year]  = mario.parse_exiobase(path=exio_sut_path, table='SUT', unit='Monetary')
+    exio_iot[year]  = mario.parse_exiobase(path=exio_iot_path, table='IOT', unit='Monetary')
 
-new_sat_SUT = pd.DataFrame(0, index=sat_IOT.index, columns=sat_SUT.columns)
-new_sat_SUT.loc[:,(slice(None),'Activity')] = sat_IOT.values
-new_units = exio_iot.units['Satellite account'][9:]
-
-exio_sut.add_extensions(io= new_sat_SUT, matrix= 'E', units= new_units, inplace=True)
-    
 #%% Getting excel templates to aggregate raw Exiobase
-path_aggr  = r"Aggregations\Aggregation_baseline.xlsx"
-exio_sut.get_aggregation_excel(path_aggr)
+path_aggr_IOT  = r"Aggregations\Aggregation_raw_IOT.xlsx"
+path_aggr_SUT  = r"Aggregations\Aggregation_raw_SUT.xlsx"
+# exio_iot[year].get_aggregation_excel(path_aggr_IOT)
+# exio_sut[year].get_aggregation_excel(path_aggr_SUT)
 
 #%% Aggregating exiobase as other models
-exio_sut.aggregate(path_aggr, levels=["Region","Satellite account"])
+for year in years:
+    exio_iot[year].aggregate(path_aggr_IOT, levels=["Region"])
+    exio_sut[year].aggregate(path_aggr_SUT, levels=["Region"])
+
+#%% Adding environmental extensions from miot to msut
+for year in years:
+    sat_IOT = exio_iot[year].E
+    sat_SUT = exio_sut[year].E
+    
+    new_sat_SUT = pd.DataFrame(0, index=sat_IOT.index, columns=sat_SUT.columns)
+    new_sat_SUT.loc[:,(slice(None),'Activity')] = sat_IOT.values
+    new_units = exio_iot[year].units['Satellite account'][9:]
+    
+    exio_sut[year].add_extensions(io= new_sat_SUT, matrix= 'E', units= new_units, inplace=True)
 
 #%% Aggregated database to excel
-exio_sut.to_excel(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\a. Aggregated_SUT.xlsx", flows=False, coefficients=True)
+for year in years:
+    exio_sut[year].to_txt(f"{pd.read_excel(paths, index_col=[0]).loc['Database',user]}\\a. Aggregated_SUT\\{year}", flows=False, coefficients=True)
