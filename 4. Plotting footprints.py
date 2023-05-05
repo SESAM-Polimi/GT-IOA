@@ -249,7 +249,10 @@ for plot,properties in to_plot.items():
                 plot_df = f[sa].groupby(level=["Region from","Commodity","Activity to", "Year","Unit"]).mean() 
                 plot_df = plot_df.loc[(sN,sN,act,sN,sN,sN),:].sort_values(['Region from','Commodity','Year'], ascending=[False,False,True])  
             else:
+                indexnames = plot_df.index.names
+                plot_df.reset_index(inplace=True)
                 plot_df.replace("Average", "Medium", inplace=True)
+                plot_df.set_index(indexnames,inplace=True)
                 plot_df = plot_df.loc[(sN,sN,act,sN,sN,sN),:].sort_values(['Region from','Commodity','Scenario','Year','Performance'], ascending=[False,False,True,True,True])  
 
             plot_df.reset_index(inplace=True)
@@ -302,81 +305,3 @@ for plot,properties in to_plot.items():
             fig.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{act}_{name['name']}.html", auto_open=auto)
     
     
-
-#%%
-
-
-
-
-
-    
-    
-    # footprint_by_reg = f[sa].groupby(level=["Region from","Activity to", "Scenario","Unit"]).sum()
-    # footprint_by_act = f[sa].groupby(level=["Activity from","Activity to", "Scenario","Unit"]).sum()
-    # footprint_by_reg_act = f[sa].groupby(level=["Region from","Activity from","Activity to", "Scenario","Unit"]).sum()
-    
-    # capacity_footprint_by_reg = footprint_by_reg.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
-    # capacity_footprint_by_act = footprint_by_act.loc[(sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Activity from','Scenario'], ascending=[False,True])  
-    # capacity_footprint_by_reg_act = footprint_by_reg_act.loc[(sN,sN,capacity_figure,'Endogenous capital',sN),:].sort_values(['Region from','Activity from','Scenario'], ascending=[False,False,True])  
-    # energy_footprint_by_reg = footprint_by_reg.loc[(sN,energy_figure,['Baseline','Endogenous capital'],sN),:].sort_values(['Region from','Scenario'], ascending=[False,True])
-    # energy_footprint_by_act = footprint_by_act.loc[(sN,energy_figure,['Baseline','Endogenous capital'],sN),:].sort_values(['Activity from', 'Scenario'], ascending=[False,True])
-    # energy_footprint_by_reg_act = footprint_by_reg_act.loc[(sN,sN,energy_figure,['Baseline','Endogenous capital'],sN),:].sort_values(['Region from','Activity from','Scenario'], ascending=[False,False,True])  
-    
-    # capacity_footprint_by_reg.reset_index(inplace=True)
-    # capacity_footprint_by_act.reset_index(inplace=True)
-    # capacity_footprint_by_reg_act.reset_index(inplace=True)
-    # energy_footprint_by_reg.reset_index(inplace=True)
-    # energy_footprint_by_act.reset_index(inplace=True)
-    # energy_footprint_by_reg_act.reset_index(inplace=True)
-    
-    # capacity_footprint_by_reg.rename(columns={'Activity from':'Commodity', 'Region from': 'Region'}, inplace=True)
-    # capacity_footprint_by_act.rename(columns={'Activity from':'Commodity', 'Region from': 'Region'}, inplace=True)
-    # capacity_footprint_by_reg_act.rename(columns={'Activity from':'Commodity', 'Region from': 'Region'}, inplace=True)
-    # energy_footprint_by_reg.rename(columns={'Activity from':'Commodity', 'Region from': 'Region'}, inplace=True)
-    # energy_footprint_by_act.rename(columns={'Activity from':'Commodity', 'Region from': 'Region'}, inplace=True)
-    # energy_footprint_by_reg_act.rename(columns={'Activity from':'Commodity', 'Region from': 'Region'}, inplace=True)
-
-    # fig_cap_by_reg = px.bar(capacity_footprint_by_reg, x="Activity to", y="Value", color="Region", color_discrete_sequence=colors, title=f"{to_plot[sa]} footprint per unit of installed capacity in EU27+UK, allocated by region", template=template, hover_data=labels)
-    # fig_cap_by_act = px.bar(capacity_footprint_by_act, x="Activity to", y="Value", color="Commodity", color_discrete_sequence=colors, title=f"{to_plot[sa]} footprint per unit of installed capacity in EU27+UK, allocated by commodity", template=template, hover_data=labels)
-    # fig_cap_by_reg_act = px.bar(capacity_footprint_by_reg_act, x="Activity to", y="Value", color="Commodity", facet_col="Region", color_discrete_sequence=colors, title=f"{to_plot[sa]} footprint per unit of installed capacity in EU27+UK, allocated by region and commodity [{list(set(capacity_footprint_by_act['Unit']))[0]}]", template=template, hover_data=labels)
-    # fig_ene_by_reg = px.bar(energy_footprint_by_reg, x="Scenario", y="Value", color="Region", facet_col="Activity to", color_discrete_sequence=colors, title=f"{to_plot[sa]} footprint per unit of electricity produced in EU27+UK, allocated by region", template=template, hover_data=labels)
-    # fig_ene_by_act = px.bar(energy_footprint_by_act, x="Scenario", y="Value", color="Commodity", facet_col="Activity to", color_discrete_sequence=colors, title=f"{to_plot[sa]} footprint per unit of electricity produced in EU27+UK, allocated by commodity", template=template, hover_data=labels)
-    # fig_ene_by_reg_act = px.bar(energy_footprint_by_reg_act, x="Scenario", y="Value", color="Commodity", facet_col="Region", facet_row="Activity to", color_discrete_sequence=colors, title=f"{to_plot[sa]} footprint per unit of electricity produced in EU27+UK, allocated by region and commodity [{list(set(energy_footprint_by_act['Unit']))[0]}]", template=template, hover_data=labels)
-
-    # fig_cap_by_reg.update_layout(legend=dict(title=None, traceorder='reversed'), xaxis=dict(title=None), yaxis=dict(title=f"{list(set(capacity_footprint_by_reg['Unit']))[0]}"), font_family=font, font_size=size)    
-    # fig_cap_by_act.update_layout(legend=dict(title=None, traceorder='reversed'), xaxis=dict(title=None), yaxis=dict(title=f"{list(set(capacity_footprint_by_act['Unit']))[0]}"), font_family=font, font_size=size)    
-    # fig_cap_by_reg_act.update_layout(legend=dict(title=None, traceorder='reversed'), xaxis=dict(title=None), font_family=font, font_size=size)    
-    # fig_ene_by_reg.update_layout(legend=dict(title=None, traceorder='reversed'), yaxis=dict(title=f"{list(set(energy_footprint_by_reg['Unit']))[0]}"), font_family=font, font_size=size)    
-    # fig_ene_by_act.update_layout(legend=dict(title=None, traceorder='reversed'), yaxis=dict(title=f"{list(set(energy_footprint_by_act['Unit']))[0]}"), font_family=font, font_size=size)    
-    # fig_ene_by_reg_act.update_layout(legend=dict(title=None, traceorder='reversed'), font_family=font, font_size=size)    
-
-    # fig_cap_by_reg.update_traces(marker_line_width=0)
-    # fig_cap_by_act.update_traces(marker_line_width=0)
-    # fig_cap_by_reg_act.update_traces(marker_line_width=0)
-    # fig_ene_by_reg.update_traces(marker_line_width=0)
-    # fig_ene_by_act.update_traces(marker_line_width=0)
-    # fig_ene_by_reg_act.update_traces(marker_line_width=0)
-
-    # fig_cap_by_reg.for_each_annotation(lambda a: a.update(text=a.text.split("=")[1]))
-    # fig_cap_by_act.for_each_annotation(lambda a: a.update(text=a.text.split("=")[1]))
-    # fig_cap_by_reg_act.for_each_annotation(lambda a: a.update(text=a.text.split("=")[1]))
-    # fig_ene_by_reg.for_each_annotation(lambda a: a.update(text=a.text.split("=")[1]))
-    # fig_ene_by_act.for_each_annotation(lambda a: a.update(text=a.text.split("=")[1]))
-    # fig_ene_by_reg_act.for_each_annotation(lambda a: a.update(text=a.text.split("=")[1]))
-    
-    # fig_ene_by_reg.for_each_xaxis(lambda axis: axis.update(title=None))
-    # fig_ene_by_act.for_each_xaxis(lambda axis: axis.update(title=None))
-    # fig_cap_by_reg_act.for_each_xaxis(lambda axis: axis.update(title=None))
-    # fig_ene_by_reg_act.for_each_xaxis(lambda axis: axis.update(title=None))
-
-    # fig_cap_by_reg_act.for_each_yaxis(lambda axis: axis.update(title=None))
-    # fig_ene_by_reg_act.for_each_yaxis(lambda axis: axis.update(title=None))
-
-    # fig_cap_by_reg.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{to_plot[sa]} - Cap,reg.html", auto_open=auto)
-    # fig_cap_by_act.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{to_plot[sa]} - Cap,act.html", auto_open=auto)
-    # fig_cap_by_reg_act.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{to_plot[sa]} - Cap,reg-act.html", auto_open=auto)
-    # fig_ene_by_reg.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{to_plot[sa]} - Ene,reg.html", auto_open=auto)
-    # fig_ene_by_act.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{to_plot[sa]} - Ene,act.html", auto_open=auto)
-    # fig_ene_by_reg_act.write_html(f"{pd.read_excel(paths, index_col=[0]).loc['Plots',user]}\\{to_plot[sa]} - Ene,reg-act.html", auto_open=auto)
-
-
