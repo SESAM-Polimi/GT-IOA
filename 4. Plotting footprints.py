@@ -228,7 +228,6 @@ to_plot = {
         },
     }
 
-
 colors = px.colors.qualitative.Pastel
 template = "seaborn"
 font = "HelveticaNeue Light"
@@ -250,8 +249,9 @@ for plot,properties in to_plot.items():
                 plot_df = f[sa].groupby(level=["Region from","Commodity","Activity to", "Year","Unit"]).mean() 
                 plot_df = plot_df.loc[(sN,sN,act,sN,sN,sN),:].sort_values(['Region from','Commodity','Year'], ascending=[False,False,True])  
             else:
-                plot_df = plot_df.loc[(sN,sN,act,sN,sN,sN),:].sort_values(['Region from','Commodity','Scenario','Year'], ascending=[False,False,True,True])  
-            
+                plot_df.replace("Average", "Medium", inplace=True)
+                plot_df = plot_df.loc[(sN,sN,act,sN,sN,sN),:].sort_values(['Region from','Commodity','Scenario','Year','Performance'], ascending=[False,False,True,True,True])  
+
             plot_df.reset_index(inplace=True)
             
             if plot == 'Capacity':
@@ -264,7 +264,7 @@ for plot,properties in to_plot.items():
                     # facet_row=properties['facet_row'],
                     # animation_frame=properties['animation_frame'],
                     color_discrete_sequence=colors,
-                    title=f"{sa} footprint per unit of {properties['title']} in EU27+UK, allocated by region and commodity [{list(set(plot_df['Unit']))[0]}]",
+                    title=f"{name['name']} footprint per unit of {properties['title']} in EU27+UK, allocated by region and commodity [{list(set(plot_df['Unit']))[0]}]",
                     template=template, 
                     hover_data=labels,
                     )
@@ -278,7 +278,7 @@ for plot,properties in to_plot.items():
                     facet_row=properties['facet_row'],
                     animation_frame=properties['animation_frame'],
                     color_discrete_sequence=colors,
-                    title=f"{sa} footprint per unit of {properties['title']} in EU27+UK, allocated by region and commodity [{list(set(plot_df['Unit']))[0]}]",
+                    title=f"{name['name']} footprint per unit of {properties['title']} in EU27+UK, allocated by region and commodity [{list(set(plot_df['Unit']))[0]}]",
                     template=template, 
                     hover_data=labels,
                     )
